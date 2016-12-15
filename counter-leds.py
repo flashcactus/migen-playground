@@ -3,40 +3,15 @@ from migen import *
 from migen.genlib.fsm import *
 
 import periph
-
-class Strober(Module):
-    def __init__(self):
-        self.inp = Signal()
-        self.strobe = Signal()
-
-        self.submodules.fsm = FSM()
-
-        ###
-        
-        self.fsm.act("IDLE",
-            If(self.inp,
-                NextValue(self.strobe,1),
-                NextState("WAITRELEASE")
-            )
-        )
-
-        self.fsm.act("WAITRELEASE",
-            [
-                NextValue(self.strobe,0),
-                If (~self.inp,
-                    NextState("IDLE")
-                )
-            ]
-        )
-
+from mystuff import *
 
 class _LedTest(Module):
-    def __init__(self,platform):
+    def __init__(self,plat):
         ckdiv_counter = Signal(32)
 
         counter = Signal(24)
 
-        digits = [plat.request("7seg",n) for n in range(6)] 
+        digits = [plat.request("seven_seg",n) for n in range(6)] 
 
         leds = Cat([plat.request("user_led",n) for n in range(10)])
         btn = plat.request("key",0)
@@ -83,7 +58,7 @@ class _LedTest(Module):
 if __name__ == '__main__':
     from migen.build.generic_platform import * 
 
-    import de0cv
+    from migen.build.platforms import de0cv
 
     plat = de0cv.Platform()         
 
