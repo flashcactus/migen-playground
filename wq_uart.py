@@ -79,7 +79,11 @@ class UART(Module):
             )
         )
         self.rx_fsm.act("ERROR",
-            self.rx_error.eq(1))
+            self.rx_error.eq(1),
+            #If(self.rx_ack,
+            #    NextState("IDLE")
+            #)
+        )
 
         ###
 
