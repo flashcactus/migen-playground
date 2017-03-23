@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 from migen import *
 from migen.genlib.fsm import *
@@ -31,7 +30,7 @@ class StaticNN (Module):
         ###
 
         #construct the neurons
-        self.neurons = [
+        self.submodules.neurons = [
             neuro.static_neuron(
                 neuro.weighted_sum(int_width,frac_width,len(n.weights)),
                 n.actfun(int_width,frac_width),
@@ -44,12 +43,12 @@ class StaticNN (Module):
 
         
         #connect them together and connect the inputs
-        for ndesc,neu in zip(neurons,self.neurons):
+        for neu_n,ndesc in enumerate(neurons):
             for inp_n,source in enumerate(ndesc.inputs):
                 if isinstance(source, int):
                     if source >= 0:#input from another neuron
                         print('.')
-                        self.comb += neu.inputs[inp_n].eq(self.neurons[source].output)
+                        self.comb += self.neurons[neu_n].inputs[inp_n].eq(self.neurons[source].output)
                         continue
                     else:
                         source = -source;
@@ -57,7 +56,7 @@ class StaticNN (Module):
                 if source not in self.inputs:
                     self.inputs[source] = neuro.sgnsig(int_width + frac_width)
                 #connect the neuron input to corresponding net input
-                self.comb += neu.inputs[inp_n].eq(self.inputs[source])
+                self.comb += self.neurons[neu_n].inputs[inp_n].eq(self.inputs[source])
 
         #check whether all the inputs are actually sequentially numbered, i.e. an array
         '''

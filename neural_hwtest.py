@@ -26,6 +26,22 @@ class _testnet(Module):
          
         self.net = neural_net.StaticNN(self.neurons,[2],*self.widths)
 
+'''
+class staticxornet(Module):
+    def __init__(self):
+        (int_width,frac_width) = (4,4)
+        self.neurons = [
+            neuro.static_neuron(
+                wsum    = neuro.weighted_sum(int_width,frac_width,len(n.weights)),    #wsum
+                actfun  = neuro.pseudosigmoid_tanh(int_width,frac_width),             #
+                weights = map(lambda a:neuro.float2fix(a,frac_width),n.weights),
+                bias    = neuro.float2fix(n.bias,frac_width),
+                int_width = int_width,
+                frac_width = frac_width
+            )
+        ]
+'''         
+
 
 
 class _top(Module):
