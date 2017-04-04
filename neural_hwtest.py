@@ -24,7 +24,7 @@ class _testnet(Module):
             neural_net.neuron_desc([0,1],[-3,3],-1.5),  #and(~and1,or1)
         ]
          
-        self.net = neural_net.StaticNN(self.neurons,[2],*self.widths)
+        self.submodules.net = neural_net.StaticNN(2,self.neurons,[2],*self.widths)
 
 '''
 class staticxornet(Module):
