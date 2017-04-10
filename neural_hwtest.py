@@ -26,23 +26,6 @@ class _testnet(Module):
          
         self.submodules.net = neural_net.StaticNN(2,self.neurons,[2],*self.widths)
 
-'''
-class staticxornet(Module):
-    def __init__(self):
-        (int_width,frac_width) = (4,4)
-        self.neurons = [
-            neuro.static_neuron(
-                wsum    = neuro.weighted_sum(int_width,frac_width,len(n.weights)),    #wsum
-                actfun  = neuro.pseudosigmoid_tanh(int_width,frac_width),             #
-                weights = map(lambda a:neuro.float2fix(a,frac_width),n.weights),
-                bias    = neuro.float2fix(n.bias,frac_width),
-                int_width = int_width,
-                frac_width = frac_width
-            )
-        ]
-'''         
-
-
 
 class _top(Module):
     def __init__(self,plat,bytenum=2):
@@ -112,7 +95,7 @@ class _top(Module):
                 leds[0].eq(self.data_ready),
                 leds[4].eq(self.recv_byte_cnt == 0),
                 Cat(leds[1:3]).eq(self.recv_byte_cnt),
-                leds[9].eq(self.testnet.outputs[0] >= 0)
+                leds[9].eq(self.testnet.net.outputs[0] >= 0)
         ]
         
         
@@ -121,15 +104,22 @@ if __name__ == '__main__':
     import builder as brd
     import sys
 
-    ''' 
     try:
-        if sys.argv[1][0].lower() == 'b':
-            brd.build(_top(brd.plat))         
+        if 'b' in sys.argv[1].lower():
+            build = True
+        else:
+            build = False
+        if 'f' in sys.argv[1].lower():
+            flash = True
+        else: 
+            flash = False
     except:
-        print('no build')
+        print('no argv, assuming default (bf)')
+        build = True
+        flash = True
         pass
-    '''
-    brd.build(_top(brd.plat))         
+    if build:
+        brd.build(_top(brd.plat))         
+    if flash:
+        brd.flash()
 
-    brd.flash()
-        

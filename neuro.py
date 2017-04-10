@@ -69,11 +69,11 @@ class weighted_sum(Module):
         return self.inputs[-1]
     
     def do_finalize(self):
-        print('finalize called')
+        print('wsum: finalize called')
         s = self.bias
         for winp in self.winputs:
             s = s+winp
-            print(s)
+        #    print(s)
         self.comb += self.output.eq(s)
         
 
