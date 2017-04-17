@@ -35,8 +35,8 @@ class _top(Module):
         self.comb += self.shifter.serial_in.eq(self.lfsr.vec)
         self.cntr = Signal(max=sigwidth)
         
-        self.sync += If(cntr == 0,
-            self.shifter.shift_clk.eq(1)
+        self.sync += If(self.cntr == 0,
+            self.shifter.shift_clk.eq(1),
             self.cntr.eq(sigwidth)
         ).Else(
             self.cntr.eq(self.cntr - 1)
@@ -57,11 +57,15 @@ class _top(Module):
 
 if __name__ == '__main__':
     import builder as brd
-    import sys
+    from sys import argv
+
+    nwidth,ndepth = map(int,argv[1:3])
+    ndens = float(argv[3])
+    fpwidths = tuple(map(int,argv[4:6]))
 
     try:
-        build = ('b' in sys.argv[1].lower())
-        flash = ('f' in sys.argv[1].lower())
+        build = ('b' in argv[6].lower())
+        flash = ('f' in argv[6].lower())
     except IndexError:
         print('no argv, assuming default (bf)')
         build = True
@@ -69,7 +73,7 @@ if __name__ == '__main__':
         pass
 
     if build:
-        brd.build(_top(brd.plat))         
+        brd.build(_top(brd.plat,nwidth,ndepth,ndens,fpwidths))         
     if flash:
         brd.flash()
 

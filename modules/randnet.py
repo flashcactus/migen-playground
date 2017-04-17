@@ -47,12 +47,11 @@ def randgraph_layered(input_count, layer_counts, con_density, connum_func=lambda
         start = nexts
         nexts = start + lc
     outputs = list(range(start,nexts))
-    print(neurons,outputs)
     return neurons,outputs
 
 
 def rectnet(width, depth, density, fp_widths):
-    graph,outputs = randgraph_layered(width,[width]*depth,density,normgauss(2**fp_widths[0]))
+    graph,outputs = randgraph_layered(width,[width]*depth,density,randfunc=normgauss(2**fp_widths[0]))
     return neural_net.StaticNN(width,graph,outputs,*fp_widths)
 
 

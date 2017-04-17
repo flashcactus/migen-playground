@@ -51,13 +51,13 @@ class StaticNN (Module):
             for inp_n,source in enumerate(ndesc.inputs):
                 if isinstance(source, int):
                     if source >= 0:#input from another neuron
-                        print('.')
+                        print('.',end='')
                         self.comb += self.neurons[neu_n].inputs[inp_n].eq(self.neurons[source].output)
                         continue
                     else:
                         source = -source-1;
                 #add the input if it's not there
-                print(',')
+                print(',',end='')
                 '''
                 if source not in self.inputs:
                     self.inputs[source] = neuro.sgnsig(int_width + frac_width)
