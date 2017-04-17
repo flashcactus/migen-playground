@@ -2,11 +2,11 @@
 from migen import *
 from migen.genlib.fsm import *
 
-import mystuff
-import periph
-import neuro
-import neural_net 
-from wq_uart import UART
+from modules import mystuff
+from modules import periph
+import modules.neuro as neuro
+from modules import neural_net 
+from modules.wq_uart import UART
 
 import math
 
@@ -105,19 +105,14 @@ if __name__ == '__main__':
     import sys
 
     try:
-        if 'b' in sys.argv[1].lower():
-            build = True
-        else:
-            build = False
-        if 'f' in sys.argv[1].lower():
-            flash = True
-        else: 
-            flash = False
-    except:
+        build = ('b' in sys.argv[1].lower())
+        flash = ('f' in sys.argv[1].lower())
+    except IndexError:
         print('no argv, assuming default (bf)')
         build = True
         flash = True
         pass
+
     if build:
         brd.build(_top(brd.plat))         
     if flash:

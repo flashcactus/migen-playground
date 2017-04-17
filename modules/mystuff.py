@@ -50,6 +50,31 @@ class WideShiftReg(Module):
         )
 
 
+class LFSR(Module):
+    '''Linear feedback shift register'''
+    def __init__(self, width, mask):
+        self.vec = Signal(width,reset=1)
+        self.next = Signal()
+        self.reset_vec = Signal(width)
+        self.reset_stb = Signal()
+
+        #make the next bit
+        x = 0
+        for i in range(width):
+            if mask[i]:
+                x = x^self.vec[i]
+        self.comb += self.next.eq(x)
+        
+        #do the shifting&resetting
+        self.sync += [
+            If(self.reset_stb,
+                self.vec.eq(self.reset_vec)
+            ).Else(
+                self.vec[1:].eq(self.vec[:-1]), 
+                self.vec[0].eq(self.next)
+            )
+        ]
+
 
 class uart_token_receiver(Module):
     def __init__(self,token_size,token_count,serial,endianness='b',baud=9600,fpga_clk_freq=5000000):

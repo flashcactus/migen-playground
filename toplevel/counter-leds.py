@@ -2,8 +2,8 @@
 from migen import *
 from migen.genlib.fsm import *
 
-import periph
-from mystuff import *
+from modules import periph
+from modules.mystuff import *
 
 class _LedTest(Module):
     def __init__(self,plat):
