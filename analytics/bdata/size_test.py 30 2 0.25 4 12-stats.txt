@@ -1,0 +1,8 @@
+Fri May  5 11:52:28 MSK 2017
+Rectnet: instantiated net with 60 neurons and 450 edges
+33557 device resources
+57 input pins
+10 output pins
+33358 logic cells
+132 DSP elements
+

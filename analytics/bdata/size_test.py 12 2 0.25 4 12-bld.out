@@ -1,0 +1,953 @@
+Rectnet: instantiated net with 24 neurons and 72 edges
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....................................Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu May  4 21:36:03 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top -c top
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (10229): Verilog HDL Expression warning at top.v(36): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 36
+Warning (10229): Verilog HDL Expression warning at top.v(37): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 37
+Warning (10229): Verilog HDL Expression warning at top.v(38): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 38
+Warning (10229): Verilog HDL Expression warning at top.v(39): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 39
+Warning (10229): Verilog HDL Expression warning at top.v(40): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 40
+Warning (10229): Verilog HDL Expression warning at top.v(41): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 41
+Warning (10229): Verilog HDL Expression warning at top.v(42): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 42
+Warning (10229): Verilog HDL Expression warning at top.v(43): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 43
+Warning (10229): Verilog HDL Expression warning at top.v(44): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 44
+Warning (10229): Verilog HDL Expression warning at top.v(45): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 45
+Warning (10229): Verilog HDL Expression warning at top.v(46): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 46
+Warning (10229): Verilog HDL Expression warning at top.v(47): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 47
+Warning (10229): Verilog HDL Expression warning at top.v(65): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 65
+Warning (10229): Verilog HDL Expression warning at top.v(81): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 81
+Warning (10229): Verilog HDL Expression warning at top.v(118): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 118
+Warning (10229): Verilog HDL Expression warning at top.v(141): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 141
+Warning (10229): Verilog HDL Expression warning at top.v(178): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 178
+Warning (10229): Verilog HDL Expression warning at top.v(194): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 194
+Warning (10229): Verilog HDL Expression warning at top.v(217): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 217
+Warning (10229): Verilog HDL Expression warning at top.v(247): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 247
+Warning (10229): Verilog HDL Expression warning at top.v(277): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 277
+Warning (10229): Verilog HDL Expression warning at top.v(321): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 321
+Warning (10229): Verilog HDL Expression warning at top.v(372): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 372
+Warning (10229): Verilog HDL Expression warning at top.v(402): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 402
+Warning (10229): Verilog HDL Expression warning at top.v(418): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 418
+Warning (10229): Verilog HDL Expression warning at top.v(455): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 455
+Warning (10229): Verilog HDL Expression warning at top.v(471): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 471
+Warning (10229): Verilog HDL Expression warning at top.v(501): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 501
+Warning (10229): Verilog HDL Expression warning at top.v(538): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 538
+Warning (10229): Verilog HDL Expression warning at top.v(554): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 554
+Warning (10229): Verilog HDL Expression warning at top.v(584): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 584
+Warning (10229): Verilog HDL Expression warning at top.v(614): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 614
+Warning (10229): Verilog HDL Expression warning at top.v(658): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 658
+Warning (10229): Verilog HDL Expression warning at top.v(709): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 709
+Warning (10229): Verilog HDL Expression warning at top.v(739): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 739
+Warning (10229): Verilog HDL Expression warning at top.v(762): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 762
+Warning (10259): Verilog HDL error at top.v(904): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 904
+Warning (10229): Verilog HDL Expression warning at top.v(927): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 927
+Warning (10259): Verilog HDL error at top.v(931): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 931
+Warning (10259): Verilog HDL error at top.v(932): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 932
+Warning (10229): Verilog HDL Expression warning at top.v(960): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 960
+Warning (10259): Verilog HDL error at top.v(964): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 964
+Warning (10259): Verilog HDL error at top.v(965): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 965
+Warning (10259): Verilog HDL error at top.v(976): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 976
+Warning (10259): Verilog HDL error at top.v(977): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 977
+Warning (10259): Verilog HDL error at top.v(980): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 980
+Warning (10229): Verilog HDL Expression warning at top.v(1011): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1011
+Warning (10259): Verilog HDL error at top.v(1015): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1015
+Warning (10259): Verilog HDL error at top.v(1016): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1016
+Warning (10259): Verilog HDL error at top.v(1029): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1029
+Warning (10229): Verilog HDL Expression warning at top.v(1050): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1050
+Warning (10259): Verilog HDL error at top.v(1054): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1054
+Warning (10259): Verilog HDL error at top.v(1055): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1055
+Warning (10259): Verilog HDL error at top.v(1066): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1066
+Warning (10259): Verilog HDL error at top.v(1069): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1069
+Warning (10229): Verilog HDL Expression warning at top.v(1101): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1101
+Warning (10259): Verilog HDL error at top.v(1105): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1105
+Warning (10259): Verilog HDL error at top.v(1106): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1106
+Warning (10259): Verilog HDL error at top.v(1117): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1117
+Warning (10259): Verilog HDL error at top.v(1118): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1118
+Warning (10229): Verilog HDL Expression warning at top.v(1134): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1134
+Warning (10259): Verilog HDL error at top.v(1138): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1138
+Warning (10259): Verilog HDL error at top.v(1139): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1139
+Warning (10229): Verilog HDL Expression warning at top.v(1173): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1173
+Warning (10259): Verilog HDL error at top.v(1177): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1177
+Warning (10259): Verilog HDL error at top.v(1178): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1178
+Warning (10259): Verilog HDL error at top.v(1192): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1192
+Warning (10229): Verilog HDL Expression warning at top.v(1218): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1218
+Warning (10259): Verilog HDL error at top.v(1222): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1222
+Warning (10259): Verilog HDL error at top.v(1223): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1223
+Warning (10259): Verilog HDL error at top.v(1235): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1235
+Warning (10259): Verilog HDL error at top.v(1236): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1236
+Warning (10259): Verilog HDL error at top.v(1237): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1237
+Warning (10229): Verilog HDL Expression warning at top.v(1263): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1263
+Warning (10259): Verilog HDL error at top.v(1267): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1267
+Warning (10259): Verilog HDL error at top.v(1268): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1268
+Warning (10259): Verilog HDL error at top.v(1280): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1280
+Warning (10259): Verilog HDL error at top.v(1283): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1283
+Warning (10259): Verilog HDL error at top.v(1284): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1284
+Warning (10229): Verilog HDL Expression warning at top.v(1320): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1320
+Warning (10259): Verilog HDL error at top.v(1324): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1324
+Warning (10259): Verilog HDL error at top.v(1325): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1325
+Warning (10259): Verilog HDL error at top.v(1337): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1337
+Warning (10259): Verilog HDL error at top.v(1339): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1339
+Warning (10259): Verilog HDL error at top.v(1340): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1340
+Warning (10259): Verilog HDL error at top.v(1342): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1342
+Warning (10229): Verilog HDL Expression warning at top.v(1383): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1383
+Warning (10259): Verilog HDL error at top.v(1387): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1387
+Warning (10259): Verilog HDL error at top.v(1388): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1388
+Warning (10229): Verilog HDL Expression warning at top.v(1428): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1428
+Warning (10259): Verilog HDL error at top.v(1432): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1432
+Warning (10259): Verilog HDL error at top.v(1433): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1433
+Warning (10259): Verilog HDL error at top.v(1444): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1444
+Warning (10229): Verilog HDL Expression warning at top.v(1461): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1461
+Warning (10259): Verilog HDL error at top.v(1465): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1465
+Warning (10259): Verilog HDL error at top.v(1466): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1466
+Warning (10259): Verilog HDL error at top.v(1479): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1479
+Warning (10259): Verilog HDL error at top.v(1481): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1481
+Warning (10229): Verilog HDL Expression warning at top.v(1512): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1512
+Warning (10259): Verilog HDL error at top.v(1516): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1516
+Warning (10259): Verilog HDL error at top.v(1517): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1517
+Warning (10259): Verilog HDL error at top.v(1529): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1529
+Warning (10229): Verilog HDL Expression warning at top.v(1545): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1545
+Warning (10259): Verilog HDL error at top.v(1549): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1549
+Warning (10259): Verilog HDL error at top.v(1550): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1550
+Warning (10259): Verilog HDL error at top.v(1561): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1561
+Warning (10259): Verilog HDL error at top.v(1562): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1562
+Warning (10229): Verilog HDL Expression warning at top.v(1590): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1590
+Warning (10259): Verilog HDL error at top.v(1594): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1594
+Warning (10259): Verilog HDL error at top.v(1595): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1595
+Warning (10259): Verilog HDL error at top.v(1606): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1606
+Warning (10259): Verilog HDL error at top.v(1608): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1608
+Warning (10259): Verilog HDL error at top.v(1610): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1610
+Warning (10229): Verilog HDL Expression warning at top.v(1641): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1641
+Warning (10259): Verilog HDL error at top.v(1645): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1645
+Warning (10259): Verilog HDL error at top.v(1646): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1646
+Warning (10259): Verilog HDL error at top.v(1657): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1657
+Warning (10229): Verilog HDL Expression warning at top.v(1674): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1674
+Warning (10259): Verilog HDL error at top.v(1678): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1678
+Warning (10259): Verilog HDL error at top.v(1679): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1679
+Warning (10259): Verilog HDL error at top.v(1690): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1690
+Warning (10259): Verilog HDL error at top.v(1693): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1693
+Warning (10229): Verilog HDL Expression warning at top.v(1719): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1719
+Warning (10259): Verilog HDL error at top.v(1723): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1723
+Warning (10259): Verilog HDL error at top.v(1724): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1724
+Warning (10259): Verilog HDL error at top.v(1736): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1736
+Warning (10259): Verilog HDL error at top.v(1737): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1737
+Warning (10229): Verilog HDL Expression warning at top.v(1764): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1764
+Warning (10259): Verilog HDL error at top.v(1768): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1768
+Warning (10259): Verilog HDL error at top.v(1769): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1769
+Warning (10259): Verilog HDL error at top.v(1780): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1780
+Warning (10259): Verilog HDL error at top.v(1781): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1781
+Warning (10259): Verilog HDL error at top.v(1782): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1782
+Warning (10229): Verilog HDL Expression warning at top.v(1821): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1821
+Warning (10259): Verilog HDL error at top.v(1825): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1825
+Warning (10259): Verilog HDL error at top.v(1826): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1826
+Warning (10259): Verilog HDL error at top.v(1839): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1839
+Warning (10259): Verilog HDL error at top.v(1840): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1840
+Warning (10259): Verilog HDL error at top.v(1841): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1841
+Warning (10259): Verilog HDL error at top.v(1843): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1843
+Warning (10229): Verilog HDL Expression warning at top.v(1884): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1884
+Warning (10259): Verilog HDL error at top.v(1888): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1888
+Warning (10259): Verilog HDL error at top.v(1889): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1889
+Warning (10259): Verilog HDL error at top.v(1901): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1901
+Warning (10259): Verilog HDL error at top.v(1902): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1902
+Warning (10229): Verilog HDL Expression warning at top.v(1929): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1929
+Warning (10259): Verilog HDL error at top.v(1933): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1933
+Warning (10259): Verilog HDL error at top.v(1934): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1934
+Warning (10259): Verilog HDL error at top.v(1947): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1947
+Warning (10229): Verilog HDL Expression warning at top.v(1968): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1968
+Warning (10259): Verilog HDL error at top.v(1972): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1972
+Warning (10259): Verilog HDL error at top.v(1973): constant value overflow File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1973
+Warning (10229): Verilog HDL Expression warning at top.v(2025): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2025
+Warning (10229): Verilog HDL Expression warning at top.v(2026): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2026
+Warning (10229): Verilog HDL Expression warning at top.v(2027): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2027
+Warning (10229): Verilog HDL Expression warning at top.v(2028): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2028
+Warning (10229): Verilog HDL Expression warning at top.v(2029): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2029
+Warning (10229): Verilog HDL Expression warning at top.v(2030): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2030
+Warning (10229): Verilog HDL Expression warning at top.v(2031): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2031
+Warning (10229): Verilog HDL Expression warning at top.v(2032): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2032
+Warning (10229): Verilog HDL Expression warning at top.v(2033): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2033
+Warning (10229): Verilog HDL Expression warning at top.v(2034): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2034
+Warning (10229): Verilog HDL Expression warning at top.v(2035): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2035
+Warning (10229): Verilog HDL Expression warning at top.v(2036): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2036
+Info (12021): Found 1 design units, including 1 entities, in source file top.v
+    Info (12023): Found entity 1: top File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2
+Info (12127): Elaborating entity "top" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at top.v(819): truncated value with size 16 to match size of target (10) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 819
+Warning (10230): Verilog HDL assignment warning at top.v(907): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 907
+Warning (10230): Verilog HDL assignment warning at top.v(921): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 921
+Warning (10230): Verilog HDL assignment warning at top.v(945): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 945
+Warning (10230): Verilog HDL assignment warning at top.v(954): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 954
+Warning (10230): Verilog HDL assignment warning at top.v(981): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 981
+Warning (10230): Verilog HDL assignment warning at top.v(1005): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1005
+Warning (10230): Verilog HDL assignment warning at top.v(1030): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1030
+Warning (10230): Verilog HDL assignment warning at top.v(1044): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1044
+Warning (10230): Verilog HDL assignment warning at top.v(1071): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1071
+Warning (10230): Verilog HDL assignment warning at top.v(1095): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1095
+Warning (10230): Verilog HDL assignment warning at top.v(1119): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1119
+Warning (10230): Verilog HDL assignment warning at top.v(1128): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1128
+Warning (10230): Verilog HDL assignment warning at top.v(1153): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1153
+Warning (10230): Verilog HDL assignment warning at top.v(1167): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1167
+Warning (10230): Verilog HDL assignment warning at top.v(1193): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1193
+Warning (10230): Verilog HDL assignment warning at top.v(1212): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1212
+Warning (10230): Verilog HDL assignment warning at top.v(1238): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1238
+Warning (10230): Verilog HDL assignment warning at top.v(1257): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1257
+Warning (10230): Verilog HDL assignment warning at top.v(1285): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1285
+Warning (10230): Verilog HDL assignment warning at top.v(1314): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1314
+Warning (10230): Verilog HDL assignment warning at top.v(1343): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1343
+Warning (10230): Verilog HDL assignment warning at top.v(1377): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1377
+Warning (10230): Verilog HDL assignment warning at top.v(1403): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1403
+Warning (10230): Verilog HDL assignment warning at top.v(1422): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1422
+Warning (10230): Verilog HDL assignment warning at top.v(1446): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1446
+Warning (10230): Verilog HDL assignment warning at top.v(1455): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1455
+Warning (10230): Verilog HDL assignment warning at top.v(1482): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1482
+Warning (10230): Verilog HDL assignment warning at top.v(1506): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1506
+Warning (10230): Verilog HDL assignment warning at top.v(1530): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1530
+Warning (10230): Verilog HDL assignment warning at top.v(1539): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1539
+Warning (10230): Verilog HDL assignment warning at top.v(1565): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1565
+Warning (10230): Verilog HDL assignment warning at top.v(1584): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1584
+Warning (10230): Verilog HDL assignment warning at top.v(1611): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1611
+Warning (10230): Verilog HDL assignment warning at top.v(1635): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1635
+Warning (10230): Verilog HDL assignment warning at top.v(1659): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1659
+Warning (10230): Verilog HDL assignment warning at top.v(1668): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1668
+Warning (10230): Verilog HDL assignment warning at top.v(1690): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1690
+Warning (10230): Verilog HDL assignment warning at top.v(1694): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1694
+Warning (10230): Verilog HDL assignment warning at top.v(1713): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1713
+Warning (10230): Verilog HDL assignment warning at top.v(1739): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1739
+Warning (10230): Verilog HDL assignment warning at top.v(1758): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1758
+Warning (10230): Verilog HDL assignment warning at top.v(1786): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1786
+Warning (10230): Verilog HDL assignment warning at top.v(1815): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1815
+Warning (10230): Verilog HDL assignment warning at top.v(1844): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1844
+Warning (10230): Verilog HDL assignment warning at top.v(1878): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1878
+Warning (10230): Verilog HDL assignment warning at top.v(1904): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1904
+Warning (10230): Verilog HDL assignment warning at top.v(1923): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1923
+Warning (10230): Verilog HDL assignment warning at top.v(1948): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1948
+Warning (10230): Verilog HDL assignment warning at top.v(1962): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 1962
+Warning (10230): Verilog HDL assignment warning at top.v(2057): truncated value with size 5 to match size of target (4) File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 2057
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 56 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "seven_seg[0]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[1]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[2]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[3]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[4]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[5]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[6]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg_1[0]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[1]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[2]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[3]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[4]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[5]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[6]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_2[0]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[1]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[2]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[3]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[4]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[5]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[6]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_3[0]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[1]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[2]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[3]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[4]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[5]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[6]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_4[0]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[1]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[2]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[3]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[4]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[5]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[6]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_5[0]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[1]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[2]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[3]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[4]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[5]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[6]" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "key" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 19
+    Warning (15610): No output dependent on input pin "key_1" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 20
+    Warning (15610): No output dependent on input pin "key_2" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 21
+    Warning (15610): No output dependent on input pin "key_3" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 22
+    Warning (15610): No output dependent on input pin "sw" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 23
+    Warning (15610): No output dependent on input pin "sw_1" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 24
+    Warning (15610): No output dependent on input pin "sw_2" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 25
+    Warning (15610): No output dependent on input pin "sw_3" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 26
+    Warning (15610): No output dependent on input pin "sw_4" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 27
+    Warning (15610): No output dependent on input pin "sw_5" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 28
+    Warning (15610): No output dependent on input pin "sw_6" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 29
+    Warning (15610): No output dependent on input pin "sw_7" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 30
+    Warning (15610): No output dependent on input pin "sw_8" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 31
+    Warning (15610): No output dependent on input pin "sw_9" File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 32
+Info (21057): Implemented 1387 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 57 input pins
+    Info (21059): Implemented 10 output pins
+    Info (21061): Implemented 1224 logic cells
+    Info (21062): Implemented 96 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 273 warnings
+    Info: Peak virtual memory: 1228 megabytes
+    Info: Processing ended: Thu May  4 21:37:34 2017
+    Info: Elapsed time: 00:01:31
+    Info: Total CPU time (on all processors): 00:02:33
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu May  4 21:37:53 2017
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off top -c top
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = top
+Info: Revision = top
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (119006): Selected device 5CEBA4F23C7 for design "top"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (184020): Starting Fitter periphery placement operations
+Info (11191): Automatically promoted 1 clock (1 global)
+    Info (11162): clk50~inputCLKENA0 with 408 fanout uses global clock CLKCTRL_G6
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
+Info (176233): Starting register packing
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'top.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332144): No user constrained base clocks found in the design
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
+Info (176235): Finished register packing
+    Extra Info (176218): Packed 576 registers into blocks of type DSP block
+    Extra Info (176220): Created 384 register duplicates
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:32
+Info (170189): Fitter placement preparation operations beginning
+Info (14951): The Fitter is using Advanced Physical Optimization.
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:54
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:01:22
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 3% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 9% of the available device resources in the region that extends from location X11_Y23 to location X21_Y33
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:33
+Info (11888): Total time spent on timing analysis during the Fitter is 8.66 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:01:27
+Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 1975 megabytes
+    Info: Processing ended: Thu May  4 21:44:06 2017
+    Info: Elapsed time: 00:06:13
+    Info: Total CPU time (on all processors): 00:07:56
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu May  4 21:44:27 2017
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off top -c top
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1156 megabytes
+    Info: Processing ended: Thu May  4 21:44:52 2017
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:24
+Info: *******************************************************************
+Info: Running Quartus Prime TimeQuest Timing Analyzer
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu May  4 21:45:11 2017
+Info: Command: quartus_sta top -c top
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'top.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name clk50 clk50
+Warning (332125): Found combinational loop of 194 nodes File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 727
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[0]~4|combout"
+    Warning (332126): Node "Mult9~8|by[0]"
+    Warning (332126): Node "Mult9~8|resulta[12]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[0]~4|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[0]~4|combout"
+    Warning (332126): Node "Mult43~8|by[0]"
+    Warning (332126): Node "Mult43~8|resulta[12]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[0]~4|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~0|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~0|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~2|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~2|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~3|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~3|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[0]~4|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[1]~5|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[1]~5|combout"
+    Warning (332126): Node "Mult9~8|by[1]"
+    Warning (332126): Node "Mult9~8|resulta[13]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[1]~5|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[1]~5|combout"
+    Warning (332126): Node "Mult43~8|by[1]"
+    Warning (332126): Node "Mult43~8|resulta[13]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[1]~5|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~0|dataa"
+    Warning (332126): Node "Mult43~8|resulta[14]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[2]~6|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[2]~6|combout"
+    Warning (332126): Node "Mult9~8|by[2]"
+    Warning (332126): Node "Mult9~8|resulta[14]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[2]~6|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[2]~6|combout"
+    Warning (332126): Node "Mult43~8|by[2]"
+    Warning (332126): Node "Mult43~8|resulta[15]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~7|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~7|combout"
+    Warning (332126): Node "Mult9~8|by[3]"
+    Warning (332126): Node "Mult9~8|resulta[15]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[3]~7|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[3]~7|combout"
+    Warning (332126): Node "Mult43~8|by[3]"
+    Warning (332126): Node "Mult43~8|resulta[16]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[4]~8|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[4]~8|combout"
+    Warning (332126): Node "Mult9~8|by[4]"
+    Warning (332126): Node "Mult9~8|resulta[16]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[4]~8|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[4]~8|combout"
+    Warning (332126): Node "Mult43~8|by[4]"
+    Warning (332126): Node "Mult43~8|resulta[17]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[5]~9|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[5]~9|combout"
+    Warning (332126): Node "Mult9~8|by[5]"
+    Warning (332126): Node "Mult9~8|resulta[17]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[5]~9|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[5]~9|combout"
+    Warning (332126): Node "Mult43~8|by[5]"
+    Warning (332126): Node "Mult43~8|resulta[18]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[6]~10|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[6]~10|combout"
+    Warning (332126): Node "Mult9~8|by[6]"
+    Warning (332126): Node "Mult9~8|resulta[18]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[6]~10|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[6]~10|combout"
+    Warning (332126): Node "Mult43~8|by[6]"
+    Warning (332126): Node "Mult43~8|resulta[19]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[7]~11|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[7]~11|combout"
+    Warning (332126): Node "Mult9~8|by[7]"
+    Warning (332126): Node "Mult9~8|resulta[19]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[7]~11|datae"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[7]~11|combout"
+    Warning (332126): Node "Mult43~8|by[7]"
+    Warning (332126): Node "Mult43~8|resulta[20]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[8]~12|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[8]~12|combout"
+    Warning (332126): Node "Mult9~8|by[8]"
+    Warning (332126): Node "Mult9~8|resulta[20]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~12|datad"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~12|combout"
+    Warning (332126): Node "Mult43~8|by[8]"
+    Warning (332126): Node "Mult43~8|resulta[21]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[9]~13|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[9]~13|combout"
+    Warning (332126): Node "Mult9~8|by[9]"
+    Warning (332126): Node "Mult9~8|resulta[21]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[9]~13|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[9]~13|combout"
+    Warning (332126): Node "Mult43~8|by[9]"
+    Warning (332126): Node "Mult43~8|resulta[22]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[10]~14|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[10]~14|combout"
+    Warning (332126): Node "Mult9~8|by[10]"
+    Warning (332126): Node "Mult9~8|resulta[22]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[10]~14|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[10]~14|combout"
+    Warning (332126): Node "Mult43~8|by[10]"
+    Warning (332126): Node "Mult43~8|resulta[23]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[11]~15|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[11]~15|combout"
+    Warning (332126): Node "Mult9~8|by[11]"
+    Warning (332126): Node "Mult9~8|resulta[23]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[11]~15|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[11]~15|combout"
+    Warning (332126): Node "Mult43~8|by[11]"
+    Warning (332126): Node "Mult43~8|resulta[24]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[12]~16|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[12]~16|combout"
+    Warning (332126): Node "Mult9~8|by[12]"
+    Warning (332126): Node "Mult9~8|resulta[24]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[12]~16|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[12]~16|combout"
+    Warning (332126): Node "Mult43~8|by[12]"
+    Warning (332126): Node "Mult43~8|resulta[25]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~3|datac"
+    Warning (332126): Node "Mult43~8|resulta[26]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~3|datab"
+    Warning (332126): Node "Mult43~8|resulta[27]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~3|dataa"
+    Warning (332126): Node "Mult9~8|by[13]"
+    Warning (332126): Node "Mult9~8|resulta[25]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~3|datad"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~3|combout"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[0]~4|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[1]~5|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[2]~6|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[3]~7|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[4]~8|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[5]~9|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[6]~10|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[7]~11|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~12|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[9]~13|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[10]~14|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[11]~15|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[12]~16|dataf"
+    Warning (332126): Node "Mult9~8|resulta[26]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~3|dataf"
+    Warning (332126): Node "Mult9~8|resulta[27]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~3|datac"
+    Warning (332126): Node "Mult43~8|by[13]"
+    Warning (332126): Node "Mult43~8|by[14]"
+    Warning (332126): Node "Mult43~8|by[15]"
+    Warning (332126): Node "Mult43~8|by[16]"
+    Warning (332126): Node "Mult43~8|by[17]"
+    Warning (332126): Node "Mult43~8|by[18]"
+    Warning (332126): Node "Mult9~8|by[14]"
+    Warning (332126): Node "Mult9~8|by[15]"
+    Warning (332126): Node "Mult9~8|by[16]"
+    Warning (332126): Node "Mult9~8|by[17]"
+    Warning (332126): Node "Mult9~8|by[18]"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~3|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~3|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~2|dataa"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~2|combout"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~3|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~2|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~2|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~2|datae"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~1|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~1|combout"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~2|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~1|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~1|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~2|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~1|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~1|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~1|datad"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~1|dataa"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~1|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~1|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~2|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~2|dataa"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~0|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~0|combout"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~2|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~0|datab"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~0|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~0|datac"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~0|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~0|datae"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~0|datad"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[2]~6|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[3]~7|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[4]~8|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[5]~9|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[6]~10|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[7]~11|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[8]~12|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[9]~13|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[10]~14|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[11]~15|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier68_a[12]~16|dataf"
+    Warning (332126): Node "staticnn_weighted_sum20_weighted_sum20_fp_multiplier59_a[8]~0|datac"
+Critical Warning (332081): Design contains combinational loop of 194 nodes. Estimating the delays through the loop.
+Warning (332125): Found combinational loop of 194 nodes File: /home/cactus/proj/migen-playground/analytics/build/top.v Line: 734
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[0]~4|combout"
+    Warning (332126): Node "Mult12~8|by[0]"
+    Warning (332126): Node "Mult12~8|resulta[12]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[0]~4|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[0]~4|combout"
+    Warning (332126): Node "Mult83~8|ay[0]"
+    Warning (332126): Node "Mult83~8|resultb[12]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[0]~4|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~0|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~0|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~2|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~2|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~3|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~3|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[0]~4|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[1]~5|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[1]~5|combout"
+    Warning (332126): Node "Mult12~8|by[1]"
+    Warning (332126): Node "Mult12~8|resulta[13]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[1]~5|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[1]~5|combout"
+    Warning (332126): Node "Mult83~8|ay[1]"
+    Warning (332126): Node "Mult83~8|resultb[13]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[1]~5|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~0|datab"
+    Warning (332126): Node "Mult83~8|resultb[14]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[2]~6|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[2]~6|combout"
+    Warning (332126): Node "Mult12~8|by[2]"
+    Warning (332126): Node "Mult12~8|resulta[14]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[2]~6|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[2]~6|combout"
+    Warning (332126): Node "Mult83~8|ay[2]"
+    Warning (332126): Node "Mult83~8|resultb[15]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[3]~7|datad"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[3]~7|combout"
+    Warning (332126): Node "Mult12~8|by[3]"
+    Warning (332126): Node "Mult12~8|resulta[15]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[3]~7|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[3]~7|combout"
+    Warning (332126): Node "Mult83~8|ay[3]"
+    Warning (332126): Node "Mult83~8|resultb[16]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[4]~8|datad"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[4]~8|combout"
+    Warning (332126): Node "Mult12~8|by[4]"
+    Warning (332126): Node "Mult12~8|resulta[16]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[4]~8|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[4]~8|combout"
+    Warning (332126): Node "Mult83~8|ay[4]"
+    Warning (332126): Node "Mult83~8|resultb[17]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[5]~9|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[5]~9|combout"
+    Warning (332126): Node "Mult12~8|by[5]"
+    Warning (332126): Node "Mult12~8|resulta[17]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[5]~9|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[5]~9|combout"
+    Warning (332126): Node "Mult83~8|ay[5]"
+    Warning (332126): Node "Mult83~8|resultb[18]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[6]~10|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[6]~10|combout"
+    Warning (332126): Node "Mult12~8|by[6]"
+    Warning (332126): Node "Mult12~8|resulta[18]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[6]~10|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[6]~10|combout"
+    Warning (332126): Node "Mult83~8|ay[6]"
+    Warning (332126): Node "Mult83~8|resultb[19]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[7]~11|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[7]~11|combout"
+    Warning (332126): Node "Mult12~8|by[7]"
+    Warning (332126): Node "Mult12~8|resulta[19]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[7]~11|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[7]~11|combout"
+    Warning (332126): Node "Mult83~8|ay[7]"
+    Warning (332126): Node "Mult83~8|resultb[20]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[8]~12|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[8]~12|combout"
+    Warning (332126): Node "Mult12~8|by[8]"
+    Warning (332126): Node "Mult12~8|resulta[20]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[8]~12|datae"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[8]~12|combout"
+    Warning (332126): Node "Mult83~8|ay[8]"
+    Warning (332126): Node "Mult83~8|resultb[21]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~13|datad"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~13|combout"
+    Warning (332126): Node "Mult12~8|by[9]"
+    Warning (332126): Node "Mult12~8|resulta[21]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[9]~13|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[9]~13|combout"
+    Warning (332126): Node "Mult83~8|ay[9]"
+    Warning (332126): Node "Mult83~8|resultb[22]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[10]~14|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[10]~14|combout"
+    Warning (332126): Node "Mult12~8|by[10]"
+    Warning (332126): Node "Mult12~8|resulta[22]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[10]~14|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[10]~14|combout"
+    Warning (332126): Node "Mult83~8|ay[10]"
+    Warning (332126): Node "Mult83~8|resultb[23]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[11]~15|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[11]~15|combout"
+    Warning (332126): Node "Mult12~8|by[11]"
+    Warning (332126): Node "Mult12~8|resulta[23]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[11]~15|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[11]~15|combout"
+    Warning (332126): Node "Mult83~8|ay[11]"
+    Warning (332126): Node "Mult83~8|resultb[24]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~3|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[12]~16|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[12]~16|combout"
+    Warning (332126): Node "Mult12~8|by[12]"
+    Warning (332126): Node "Mult12~8|resulta[24]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[12]~16|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[12]~16|combout"
+    Warning (332126): Node "Mult83~8|ay[12]"
+    Warning (332126): Node "Mult83~8|resultb[25]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~3|datae"
+    Warning (332126): Node "Mult83~8|resultb[26]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~3|datab"
+    Warning (332126): Node "Mult83~8|resultb[27]"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~3|datac"
+    Warning (332126): Node "Mult12~8|by[13]"
+    Warning (332126): Node "Mult12~8|resulta[25]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~3|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~3|combout"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[0]~4|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[1]~5|dataa"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[2]~6|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[3]~7|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[4]~8|dataa"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[5]~9|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[6]~10|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[7]~11|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[8]~12|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[9]~13|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[10]~14|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[11]~15|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[12]~16|datae"
+    Warning (332126): Node "Mult12~8|resulta[26]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~3|dataa"
+    Warning (332126): Node "Mult12~8|resulta[27]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~3|datac"
+    Warning (332126): Node "Mult83~8|ay[13]"
+    Warning (332126): Node "Mult83~8|ay[14]"
+    Warning (332126): Node "Mult83~8|ay[15]"
+    Warning (332126): Node "Mult83~8|ay[16]"
+    Warning (332126): Node "Mult83~8|ay[17]"
+    Warning (332126): Node "Mult83~8|ay[18]"
+    Warning (332126): Node "Mult12~8|by[14]"
+    Warning (332126): Node "Mult12~8|by[15]"
+    Warning (332126): Node "Mult12~8|by[16]"
+    Warning (332126): Node "Mult12~8|by[17]"
+    Warning (332126): Node "Mult12~8|by[18]"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~3|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~2|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~2|combout"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~3|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~2|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~2|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~2|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~1|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~1|combout"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~2|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~1|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~1|combout"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~2|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~1|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~1|dataf"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~1|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~1|datab"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~1|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~1|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~2|datac"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~2|dataa"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~0|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~0|combout"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~2|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~0|dataa"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~0|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~0|datad"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~0|datab"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~0|datac"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~0|datae"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[2]~6|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[3]~7|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[4]~8|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[5]~9|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[6]~10|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[7]~11|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[8]~12|dataa"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[9]~13|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[10]~14|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[11]~15|dataf"
+    Warning (332126): Node "staticnn_weighted_sum22_weighted_sum22_fp_multiplier69_a[12]~16|dataa"
+    Warning (332126): Node "staticnn_weighted_sum21_weighted_sum21_fp_multiplier62_a[15]~0|dataf"
+Critical Warning (332081): Design contains combinational loop of 194 nodes. Estimating the delays through the loop.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1100mV 85C Model
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -2.548
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.548           -1703.102 clk50 
+Info (332146): Worst-case hold slack is 0.349
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.349               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.225
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.225           -1731.396 clk50 
+Info: Analyzing Slow 1100mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -2.382
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.382           -1540.989 clk50 
+Info (332146): Worst-case hold slack is 0.333
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.333               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.225
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.225           -1708.247 clk50 
+Info: Analyzing Fast 1100mV 85C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -1.312
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.312            -552.571 clk50 
+Info (332146): Worst-case hold slack is 0.178
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.178               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -1.702
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.702           -1317.826 clk50 
+Info: Analyzing Fast 1100mV 0C Model
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -1.017
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.017            -373.675 clk50 
+Info (332146): Worst-case hold slack is 0.160
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.160               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -1.702
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.702           -1372.616 clk50 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 398 warnings
+    Info: Peak virtual memory: 1361 megabytes
+    Info: Processing ended: Thu May  4 21:46:45 2017
+    Info: Elapsed time: 00:01:34
+    Info: Total CPU time (on all processors): 00:01:32
+Info: *******************************************************************
+Info: Running Quartus Prime Convert_programming_file
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu May  4 21:47:02 2017
+Info: Command: quartus_cpf -c top.sof top.rbf
+Info: Quartus Prime Convert_programming_file was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 397 megabytes
+    Info: Processing ended: Thu May  4 21:47:05 2017
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+!!OK!!

@@ -25,7 +25,10 @@ def randlayer(prev_start, start, num_neurons, num_connections, randfunc = lambda
     for neur in to_indices:
         edges.add((random.choice(from_indices), neur))
     possible_edges = set(itertools.product(from_indices, to_indices)) - edges
-    edges.update(set(random.sample(possible_edges, num_connections-len(edges))))
+    try:
+        edges.update(set(random.sample(possible_edges, num_connections-len(edges))))
+    except ValueError:
+        pass
     rconns = {n:[] for n in to_indices}
     for e in edges:
         rconns[e[1]].append(e[0])
@@ -34,7 +37,7 @@ def randlayer(prev_start, start, num_neurons, num_connections, randfunc = lambda
         neural_net.neuron_desc(rconns[n], [randfunc() for r in range(len(rconns[n]))], randfunc())
         for n in to_indices
     ]
-    return neurons
+    return neurons,len(edges)
 
 
 def randgraph_layered(input_count, layer_counts, con_density, connum_func=lambda a,b,r:a*b*r, randfunc=lambda:0):
@@ -42,16 +45,20 @@ def randgraph_layered(input_count, layer_counts, con_density, connum_func=lambda
     nexts = 0
     neurons = []
     layers = []
+    edge_count = 0
     for lc in layer_counts:
-        neurons += randlayer(start, nexts, lc, math.ceil(connum_func(nexts - start, lc, con_density)), randfunc)
+        new_layer, new_edge_c = randlayer(start, nexts, lc, math.ceil(connum_func(nexts - start, lc, con_density)), randfunc)
+        neurons += new_layer
+        edge_count += new_edge_c
         start = nexts
         nexts = start + lc
     outputs = list(range(start,nexts))
-    return neurons,outputs
+    return neurons,outputs,edge_count
 
 
 def rectnet(width, depth, density, fp_widths):
-    graph,outputs = randgraph_layered(width,[width]*depth,density,randfunc=normgauss(2**fp_widths[0]))
+    graph,outputs,edge_cnt = randgraph_layered(width,[width]*depth,density,randfunc=normgauss(2**fp_widths[0]))
+    print("Rectnet: instantiated net with",len(graph),"neurons and",edge_cnt,"edges")
     return neural_net.StaticNN(width,graph,outputs,*fp_widths)
 
 

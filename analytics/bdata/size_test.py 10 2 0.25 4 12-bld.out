@@ -1,0 +1,523 @@
+Rectnet: instantiated net with 20 neurons and 50 edges
+,,,,,,,,,,,,,,,,,,,,,,,,,.........................Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Tue Apr 25 21:49:31 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top -c top
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (10229): Verilog HDL Expression warning at top.v(36): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 36
+Warning (10229): Verilog HDL Expression warning at top.v(37): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 37
+Warning (10229): Verilog HDL Expression warning at top.v(38): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 38
+Warning (10229): Verilog HDL Expression warning at top.v(39): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 39
+Warning (10229): Verilog HDL Expression warning at top.v(40): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 40
+Warning (10229): Verilog HDL Expression warning at top.v(41): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 41
+Warning (10229): Verilog HDL Expression warning at top.v(42): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 42
+Warning (10229): Verilog HDL Expression warning at top.v(43): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 43
+Warning (10229): Verilog HDL Expression warning at top.v(44): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 44
+Warning (10229): Verilog HDL Expression warning at top.v(45): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 45
+Warning (10229): Verilog HDL Expression warning at top.v(63): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 63
+Warning (10229): Verilog HDL Expression warning at top.v(93): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 93
+Warning (10229): Verilog HDL Expression warning at top.v(123): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 123
+Warning (10229): Verilog HDL Expression warning at top.v(153): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 153
+Warning (10229): Verilog HDL Expression warning at top.v(176): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 176
+Warning (10229): Verilog HDL Expression warning at top.v(206): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 206
+Warning (10229): Verilog HDL Expression warning at top.v(229): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 229
+Warning (10229): Verilog HDL Expression warning at top.v(252): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 252
+Warning (10229): Verilog HDL Expression warning at top.v(268): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 268
+Warning (10229): Verilog HDL Expression warning at top.v(305): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 305
+Warning (10229): Verilog HDL Expression warning at top.v(342): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 342
+Warning (10229): Verilog HDL Expression warning at top.v(358): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 358
+Warning (10229): Verilog HDL Expression warning at top.v(395): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 395
+Warning (10229): Verilog HDL Expression warning at top.v(411): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 411
+Warning (10229): Verilog HDL Expression warning at top.v(441): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 441
+Warning (10229): Verilog HDL Expression warning at top.v(478): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 478
+Warning (10229): Verilog HDL Expression warning at top.v(494): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 494
+Warning (10229): Verilog HDL Expression warning at top.v(517): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 517
+Warning (10229): Verilog HDL Expression warning at top.v(533): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 533
+Warning (10229): Verilog HDL Expression warning at top.v(570): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 570
+Warning (10259): Verilog HDL error at top.v(685): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 685
+Warning (10259): Verilog HDL error at top.v(686): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 686
+Warning (10229): Verilog HDL Expression warning at top.v(707): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 707
+Warning (10259): Verilog HDL error at top.v(711): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 711
+Warning (10259): Verilog HDL error at top.v(712): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 712
+Warning (10259): Verilog HDL error at top.v(723): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 723
+Warning (10259): Verilog HDL error at top.v(724): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 724
+Warning (10259): Verilog HDL error at top.v(725): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 725
+Warning (10259): Verilog HDL error at top.v(726): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 726
+Warning (10229): Verilog HDL Expression warning at top.v(752): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 752
+Warning (10259): Verilog HDL error at top.v(756): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 756
+Warning (10259): Verilog HDL error at top.v(757): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 757
+Warning (10259): Verilog HDL error at top.v(768): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 768
+Warning (10259): Verilog HDL error at top.v(769): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 769
+Warning (10259): Verilog HDL error at top.v(770): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 770
+Warning (10229): Verilog HDL Expression warning at top.v(797): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 797
+Warning (10259): Verilog HDL error at top.v(801): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 801
+Warning (10259): Verilog HDL error at top.v(802): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 802
+Warning (10229): Verilog HDL Expression warning at top.v(842): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 842
+Warning (10259): Verilog HDL error at top.v(846): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 846
+Warning (10259): Verilog HDL error at top.v(847): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 847
+Warning (10259): Verilog HDL error at top.v(859): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 859
+Warning (10229): Verilog HDL Expression warning at top.v(881): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 881
+Warning (10259): Verilog HDL error at top.v(885): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 885
+Warning (10259): Verilog HDL error at top.v(886): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 886
+Warning (10259): Verilog HDL error at top.v(900): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 900
+Warning (10229): Verilog HDL Expression warning at top.v(926): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 926
+Warning (10259): Verilog HDL error at top.v(930): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 930
+Warning (10259): Verilog HDL error at top.v(931): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 931
+Warning (10259): Verilog HDL error at top.v(943): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 943
+Warning (10229): Verilog HDL Expression warning at top.v(965): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 965
+Warning (10259): Verilog HDL error at top.v(969): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 969
+Warning (10259): Verilog HDL error at top.v(970): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 970
+Warning (10259): Verilog HDL error at top.v(981): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 981
+Warning (10259): Verilog HDL error at top.v(982): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 982
+Warning (10229): Verilog HDL Expression warning at top.v(1004): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1004
+Warning (10259): Verilog HDL error at top.v(1008): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1008
+Warning (10259): Verilog HDL error at top.v(1009): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1009
+Warning (10259): Verilog HDL error at top.v(1020): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1020
+Warning (10259): Verilog HDL error at top.v(1021): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1021
+Warning (10229): Verilog HDL Expression warning at top.v(1037): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1037
+Warning (10259): Verilog HDL error at top.v(1041): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1041
+Warning (10259): Verilog HDL error at top.v(1042): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1042
+Warning (10259): Verilog HDL error at top.v(1053): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1053
+Warning (10259): Verilog HDL error at top.v(1055): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1055
+Warning (10259): Verilog HDL error at top.v(1056): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1056
+Warning (10229): Verilog HDL Expression warning at top.v(1088): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1088
+Warning (10259): Verilog HDL error at top.v(1092): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1092
+Warning (10259): Verilog HDL error at top.v(1093): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1093
+Warning (10259): Verilog HDL error at top.v(1105): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1105
+Warning (10259): Verilog HDL error at top.v(1106): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1106
+Warning (10259): Verilog HDL error at top.v(1107): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1107
+Warning (10229): Verilog HDL Expression warning at top.v(1139): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1139
+Warning (10259): Verilog HDL error at top.v(1143): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1143
+Warning (10259): Verilog HDL error at top.v(1144): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1144
+Warning (10259): Verilog HDL error at top.v(1155): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1155
+Warning (10229): Verilog HDL Expression warning at top.v(1172): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1172
+Warning (10259): Verilog HDL error at top.v(1176): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1176
+Warning (10259): Verilog HDL error at top.v(1177): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1177
+Warning (10259): Verilog HDL error at top.v(1190): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1190
+Warning (10259): Verilog HDL error at top.v(1191): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1191
+Warning (10259): Verilog HDL error at top.v(1192): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1192
+Warning (10229): Verilog HDL Expression warning at top.v(1223): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1223
+Warning (10259): Verilog HDL error at top.v(1227): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1227
+Warning (10259): Verilog HDL error at top.v(1228): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1228
+Warning (10259): Verilog HDL error at top.v(1239): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1239
+Warning (10259): Verilog HDL error at top.v(1240): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1240
+Warning (10229): Verilog HDL Expression warning at top.v(1256): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1256
+Warning (10259): Verilog HDL error at top.v(1260): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1260
+Warning (10259): Verilog HDL error at top.v(1261): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1261
+Warning (10259): Verilog HDL error at top.v(1272): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1272
+Warning (10259): Verilog HDL error at top.v(1274): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1274
+Warning (10229): Verilog HDL Expression warning at top.v(1301): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1301
+Warning (10259): Verilog HDL error at top.v(1305): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1305
+Warning (10259): Verilog HDL error at top.v(1306): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1306
+Warning (10259): Verilog HDL error at top.v(1317): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1317
+Warning (10259): Verilog HDL error at top.v(1318): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1318
+Warning (10259): Verilog HDL error at top.v(1321): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1321
+Warning (10229): Verilog HDL Expression warning at top.v(1352): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1352
+Warning (10259): Verilog HDL error at top.v(1356): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1356
+Warning (10259): Verilog HDL error at top.v(1357): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1357
+Warning (10259): Verilog HDL error at top.v(1369): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1369
+Warning (10229): Verilog HDL Expression warning at top.v(1385): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1385
+Warning (10259): Verilog HDL error at top.v(1389): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1389
+Warning (10259): Verilog HDL error at top.v(1390): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1390
+Warning (10229): Verilog HDL Expression warning at top.v(1424): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1424
+Warning (10259): Verilog HDL error at top.v(1428): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1428
+Warning (10259): Verilog HDL error at top.v(1429): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1429
+Warning (10229): Verilog HDL Expression warning at top.v(1457): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1457
+Warning (10259): Verilog HDL error at top.v(1461): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1461
+Warning (10259): Verilog HDL error at top.v(1462): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1462
+Warning (10259): Verilog HDL error at top.v(1473): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1473
+Warning (10259): Verilog HDL error at top.v(1475): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1475
+Warning (10259): Verilog HDL error at top.v(1476): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1476
+Warning (10259): Verilog HDL error at top.v(1477): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1477
+Warning (10229): Verilog HDL Expression warning at top.v(1508): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1508
+Warning (10259): Verilog HDL error at top.v(1512): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1512
+Warning (10259): Verilog HDL error at top.v(1513): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 1513
+Warning (10229): Verilog HDL Expression warning at top.v(1565): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1565
+Warning (10229): Verilog HDL Expression warning at top.v(1566): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1566
+Warning (10229): Verilog HDL Expression warning at top.v(1567): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1567
+Warning (10229): Verilog HDL Expression warning at top.v(1568): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1568
+Warning (10229): Verilog HDL Expression warning at top.v(1569): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1569
+Warning (10229): Verilog HDL Expression warning at top.v(1570): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1570
+Warning (10229): Verilog HDL Expression warning at top.v(1571): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1571
+Warning (10229): Verilog HDL Expression warning at top.v(1572): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1572
+Warning (10229): Verilog HDL Expression warning at top.v(1573): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1573
+Warning (10229): Verilog HDL Expression warning at top.v(1574): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1574
+Info (12021): Found 1 design units, including 1 entities, in source file top.v
+    Info (12023): Found entity 1: top File: /home/cactus/proj/migen-playground/build/top.v Line: 2
+Info (12127): Elaborating entity "top" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at top.v(623): truncated value with size 16 to match size of target (10) File: /home/cactus/proj/migen-playground/build/top.v Line: 623
+Warning (10230): Verilog HDL assignment warning at top.v(687): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 687
+Warning (10230): Verilog HDL assignment warning at top.v(701): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 701
+Warning (10230): Verilog HDL assignment warning at top.v(727): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 727
+Warning (10230): Verilog HDL assignment warning at top.v(746): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 746
+Warning (10230): Verilog HDL assignment warning at top.v(772): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 772
+Warning (10230): Verilog HDL assignment warning at top.v(791): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 791
+Warning (10230): Verilog HDL assignment warning at top.v(817): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 817
+Warning (10230): Verilog HDL assignment warning at top.v(836): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 836
+Warning (10230): Verilog HDL assignment warning at top.v(861): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 861
+Warning (10230): Verilog HDL assignment warning at top.v(875): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 875
+Warning (10230): Verilog HDL assignment warning at top.v(901): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 901
+Warning (10230): Verilog HDL assignment warning at top.v(920): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 920
+Warning (10230): Verilog HDL assignment warning at top.v(945): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 945
+Warning (10230): Verilog HDL assignment warning at top.v(959): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 959
+Warning (10230): Verilog HDL assignment warning at top.v(984): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 984
+Warning (10230): Verilog HDL assignment warning at top.v(998): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 998
+Warning (10230): Verilog HDL assignment warning at top.v(1022): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1022
+Warning (10230): Verilog HDL assignment warning at top.v(1031): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1031
+Warning (10230): Verilog HDL assignment warning at top.v(1058): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1058
+Warning (10230): Verilog HDL assignment warning at top.v(1082): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1082
+Warning (10230): Verilog HDL assignment warning at top.v(1109): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1109
+Warning (10230): Verilog HDL assignment warning at top.v(1133): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1133
+Warning (10230): Verilog HDL assignment warning at top.v(1157): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1157
+Warning (10230): Verilog HDL assignment warning at top.v(1166): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1166
+Warning (10230): Verilog HDL assignment warning at top.v(1193): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1193
+Warning (10230): Verilog HDL assignment warning at top.v(1217): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1217
+Warning (10230): Verilog HDL assignment warning at top.v(1241): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1241
+Warning (10230): Verilog HDL assignment warning at top.v(1250): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1250
+Warning (10230): Verilog HDL assignment warning at top.v(1276): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1276
+Warning (10230): Verilog HDL assignment warning at top.v(1295): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1295
+Warning (10230): Verilog HDL assignment warning at top.v(1322): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1322
+Warning (10230): Verilog HDL assignment warning at top.v(1346): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1346
+Warning (10230): Verilog HDL assignment warning at top.v(1370): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1370
+Warning (10230): Verilog HDL assignment warning at top.v(1379): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1379
+Warning (10230): Verilog HDL assignment warning at top.v(1404): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1404
+Warning (10230): Verilog HDL assignment warning at top.v(1418): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1418
+Warning (10230): Verilog HDL assignment warning at top.v(1442): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1442
+Warning (10230): Verilog HDL assignment warning at top.v(1451): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1451
+Warning (10230): Verilog HDL assignment warning at top.v(1476): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1476
+Warning (10230): Verilog HDL assignment warning at top.v(1478): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1478
+Warning (10230): Verilog HDL assignment warning at top.v(1502): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 1502
+Warning (10230): Verilog HDL assignment warning at top.v(1593): truncated value with size 5 to match size of target (4) File: /home/cactus/proj/migen-playground/build/top.v Line: 1593
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 56 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "seven_seg[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg_1[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_2[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_3[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_4[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_5[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "key" File: /home/cactus/proj/migen-playground/build/top.v Line: 19
+    Warning (15610): No output dependent on input pin "key_1" File: /home/cactus/proj/migen-playground/build/top.v Line: 20
+    Warning (15610): No output dependent on input pin "key_2" File: /home/cactus/proj/migen-playground/build/top.v Line: 21
+    Warning (15610): No output dependent on input pin "key_3" File: /home/cactus/proj/migen-playground/build/top.v Line: 22
+    Warning (15610): No output dependent on input pin "sw" File: /home/cactus/proj/migen-playground/build/top.v Line: 23
+    Warning (15610): No output dependent on input pin "sw_1" File: /home/cactus/proj/migen-playground/build/top.v Line: 24
+    Warning (15610): No output dependent on input pin "sw_2" File: /home/cactus/proj/migen-playground/build/top.v Line: 25
+    Warning (15610): No output dependent on input pin "sw_3" File: /home/cactus/proj/migen-playground/build/top.v Line: 26
+    Warning (15610): No output dependent on input pin "sw_4" File: /home/cactus/proj/migen-playground/build/top.v Line: 27
+    Warning (15610): No output dependent on input pin "sw_5" File: /home/cactus/proj/migen-playground/build/top.v Line: 28
+    Warning (15610): No output dependent on input pin "sw_6" File: /home/cactus/proj/migen-playground/build/top.v Line: 29
+    Warning (15610): No output dependent on input pin "sw_7" File: /home/cactus/proj/migen-playground/build/top.v Line: 30
+    Warning (15610): No output dependent on input pin "sw_8" File: /home/cactus/proj/migen-playground/build/top.v Line: 31
+    Warning (15610): No output dependent on input pin "sw_9" File: /home/cactus/proj/migen-playground/build/top.v Line: 32
+Info (21057): Implemented 1073 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 57 input pins
+    Info (21059): Implemented 10 output pins
+    Info (21061): Implemented 936 logic cells
+    Info (21062): Implemented 70 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 239 warnings
+    Info: Peak virtual memory: 1239 megabytes
+    Info: Processing ended: Tue Apr 25 21:50:32 2017
+    Info: Elapsed time: 00:01:01
+    Info: Total CPU time (on all processors): 00:02:12
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Tue Apr 25 21:50:48 2017
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off top -c top
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = top
+Info: Revision = top
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (119006): Selected device 5CEBA4F23C7 for design "top"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (184020): Starting Fitter periphery placement operations
+Info (11191): Automatically promoted 1 clock (1 global)
+    Info (11162): clk50~inputCLKENA0 with 344 fanout uses global clock CLKCTRL_G6
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
+Info (176233): Starting register packing
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'top.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332144): No user constrained base clocks found in the design
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
+Info (176235): Finished register packing
+    Extra Info (176218): Packed 400 registers into blocks of type DSP block
+    Extra Info (176220): Created 240 register duplicates
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:25
+Info (170189): Fitter placement preparation operations beginning
+Info (14951): The Fitter is using Advanced Physical Optimization.
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:20
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:25
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 2% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 6% of the available device resources in the region that extends from location X22_Y23 to location X32_Y33
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:18
+Info (11888): Total time spent on timing analysis during the Fitter is 3.47 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:01:01
+Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 1946 megabytes
+    Info: Processing ended: Tue Apr 25 21:54:15 2017
+    Info: Elapsed time: 00:03:27
+    Info: Total CPU time (on all processors): 00:04:49
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Tue Apr 25 21:54:33 2017
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off top -c top
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1149 megabytes
+    Info: Processing ended: Tue Apr 25 21:54:55 2017
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:21
+Info: *******************************************************************
+Info: Running Quartus Prime TimeQuest Timing Analyzer
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Tue Apr 25 21:55:12 2017
+Info: Command: quartus_sta top -c top
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'top.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name clk50 clk50
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1100mV 85C Model
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -2.623
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.623           -1243.206 clk50 
+Info (332146): Worst-case hold slack is 0.334
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.334               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.225
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.225           -1237.316 clk50 
+Info: Analyzing Slow 1100mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -2.368
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.368           -1113.989 clk50 
+Info (332146): Worst-case hold slack is 0.264
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.264               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.225
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.225           -1217.409 clk50 
+Info: Analyzing Fast 1100mV 85C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -1.430
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.430            -392.012 clk50 
+Info (332146): Worst-case hold slack is 0.178
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.178               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -1.702
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.702            -934.392 clk50 
+Info: Analyzing Fast 1100mV 0C Model
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -1.118
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.118            -258.513 clk50 
+Info (332146): Worst-case hold slack is 0.133
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.133               0.000 clk50 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -1.702
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.702            -975.860 clk50 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 1348 megabytes
+    Info: Processing ended: Tue Apr 25 21:56:19 2017
+    Info: Elapsed time: 00:01:07
+    Info: Total CPU time (on all processors): 00:01:07
+Info: *******************************************************************
+Info: Running Quartus Prime Convert_programming_file
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Tue Apr 25 21:56:37 2017
+Info: Command: quartus_cpf -c top.sof top.rbf
+Info: Quartus Prime Convert_programming_file was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 395 megabytes
+    Info: Processing ended: Tue Apr 25 21:56:40 2017
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+!!OK!!

@@ -1,0 +1,12 @@
+1567 device resources
+57 input pins
+10 output pins
+1380 logic cells
+120 DSP elements
+
+1567 device resources
+57 input pins
+10 output pins
+1380 logic cells
+120 DSP elements
+

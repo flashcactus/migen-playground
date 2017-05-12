@@ -1,0 +1,1700 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu Apr 20 17:17:16 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top -c top
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (10229): Verilog HDL Expression warning at top.v(36): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 36
+Warning (10229): Verilog HDL Expression warning at top.v(37): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 37
+Warning (10229): Verilog HDL Expression warning at top.v(38): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 38
+Warning (10229): Verilog HDL Expression warning at top.v(39): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 39
+Warning (10229): Verilog HDL Expression warning at top.v(40): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 40
+Warning (10229): Verilog HDL Expression warning at top.v(72): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 72
+Warning (10229): Verilog HDL Expression warning at top.v(102): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 102
+Warning (10229): Verilog HDL Expression warning at top.v(132): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 132
+Warning (10229): Verilog HDL Expression warning at top.v(176): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 176
+Warning (10229): Verilog HDL Expression warning at top.v(213): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 213
+Warning (10229): Verilog HDL Expression warning at top.v(236): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 236
+Warning (10229): Verilog HDL Expression warning at top.v(273): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 273
+Warning (10229): Verilog HDL Expression warning at top.v(310): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 310
+Warning (10229): Verilog HDL Expression warning at top.v(354): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 354
+Warning (10229): Verilog HDL Expression warning at top.v(391): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 391
+Warning (10229): Verilog HDL Expression warning at top.v(428): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 428
+Warning (10229): Verilog HDL Expression warning at top.v(458): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 458
+Warning (10229): Verilog HDL Expression warning at top.v(495): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 495
+Warning (10229): Verilog HDL Expression warning at top.v(532): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 532
+Warning (10229): Verilog HDL Expression warning at top.v(569): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 569
+Warning (10229): Verilog HDL Expression warning at top.v(599): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 599
+Warning (10229): Verilog HDL Expression warning at top.v(636): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 636
+Warning (10229): Verilog HDL Expression warning at top.v(673): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 673
+Warning (10229): Verilog HDL Expression warning at top.v(710): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 710
+Warning (10229): Verilog HDL Expression warning at top.v(747): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 747
+Warning (10229): Verilog HDL Expression warning at top.v(777): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 777
+Warning (10229): Verilog HDL Expression warning at top.v(814): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 814
+Warning (10229): Verilog HDL Expression warning at top.v(844): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 844
+Warning (10229): Verilog HDL Expression warning at top.v(888): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 888
+Warning (10229): Verilog HDL Expression warning at top.v(925): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 925
+Warning (10229): Verilog HDL Expression warning at top.v(955): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 955
+Warning (10229): Verilog HDL Expression warning at top.v(985): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 985
+Warning (10229): Verilog HDL Expression warning at top.v(1022): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1022
+Warning (10229): Verilog HDL Expression warning at top.v(1066): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1066
+Warning (10229): Verilog HDL Expression warning at top.v(1103): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1103
+Warning (10229): Verilog HDL Expression warning at top.v(1147): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1147
+Warning (10229): Verilog HDL Expression warning at top.v(1184): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1184
+Warning (10229): Verilog HDL Expression warning at top.v(1207): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1207
+Warning (10229): Verilog HDL Expression warning at top.v(1251): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1251
+Warning (10229): Verilog HDL Expression warning at top.v(1281): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1281
+Warning (10229): Verilog HDL Expression warning at top.v(1318): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1318
+Warning (10229): Verilog HDL Expression warning at top.v(1355): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1355
+Warning (10229): Verilog HDL Expression warning at top.v(1392): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1392
+Warning (10229): Verilog HDL Expression warning at top.v(1429): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1429
+Warning (10229): Verilog HDL Expression warning at top.v(1459): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1459
+Warning (10229): Verilog HDL Expression warning at top.v(1496): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1496
+Warning (10229): Verilog HDL Expression warning at top.v(1533): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1533
+Warning (10229): Verilog HDL Expression warning at top.v(1570): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1570
+Warning (10229): Verilog HDL Expression warning at top.v(1600): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1600
+Warning (10229): Verilog HDL Expression warning at top.v(1637): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1637
+Warning (10229): Verilog HDL Expression warning at top.v(1667): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1667
+Warning (10229): Verilog HDL Expression warning at top.v(1697): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1697
+Warning (10229): Verilog HDL Expression warning at top.v(1734): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1734
+Warning (10229): Verilog HDL Expression warning at top.v(1771): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1771
+Warning (10229): Verilog HDL Expression warning at top.v(1815): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 1815
+Warning (10259): Verilog HDL error at top.v(2054): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2054
+Warning (10259): Verilog HDL error at top.v(2055): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2055
+Warning (10259): Verilog HDL error at top.v(2057): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2057
+Warning (10259): Verilog HDL error at top.v(2058): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2058
+Warning (10229): Verilog HDL Expression warning at top.v(2089): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2089
+Warning (10259): Verilog HDL error at top.v(2093): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2093
+Warning (10259): Verilog HDL error at top.v(2094): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2094
+Warning (10259): Verilog HDL error at top.v(2105): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2105
+Warning (10259): Verilog HDL error at top.v(2107): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2107
+Warning (10229): Verilog HDL Expression warning at top.v(2134): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2134
+Warning (10259): Verilog HDL error at top.v(2138): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2138
+Warning (10259): Verilog HDL error at top.v(2139): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2139
+Warning (10259): Verilog HDL error at top.v(2150): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2150
+Warning (10259): Verilog HDL error at top.v(2151): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2151
+Warning (10229): Verilog HDL Expression warning at top.v(2179): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2179
+Warning (10259): Verilog HDL error at top.v(2183): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2183
+Warning (10259): Verilog HDL error at top.v(2184): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2184
+Warning (10259): Verilog HDL error at top.v(2195): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2195
+Warning (10259): Verilog HDL error at top.v(2199): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2199
+Warning (10229): Verilog HDL Expression warning at top.v(2236): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2236
+Warning (10259): Verilog HDL error at top.v(2240): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2240
+Warning (10259): Verilog HDL error at top.v(2241): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2241
+Warning (10259): Verilog HDL error at top.v(2252): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2252
+Warning (10259): Verilog HDL error at top.v(2253): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2253
+Warning (10259): Verilog HDL error at top.v(2254): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2254
+Warning (10229): Verilog HDL Expression warning at top.v(2287): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2287
+Warning (10259): Verilog HDL error at top.v(2291): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2291
+Warning (10259): Verilog HDL error at top.v(2292): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2292
+Warning (10259): Verilog HDL error at top.v(2304): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2304
+Warning (10229): Verilog HDL Expression warning at top.v(2326): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2326
+Warning (10259): Verilog HDL error at top.v(2330): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2330
+Warning (10259): Verilog HDL error at top.v(2331): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2331
+Warning (10259): Verilog HDL error at top.v(2343): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2343
+Warning (10259): Verilog HDL error at top.v(2344): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2344
+Warning (10259): Verilog HDL error at top.v(2345): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2345
+Warning (10259): Verilog HDL error at top.v(2346): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2346
+Warning (10229): Verilog HDL Expression warning at top.v(2377): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2377
+Warning (10259): Verilog HDL error at top.v(2381): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2381
+Warning (10259): Verilog HDL error at top.v(2382): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2382
+Warning (10229): Verilog HDL Expression warning at top.v(2428): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2428
+Warning (10259): Verilog HDL error at top.v(2432): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2432
+Warning (10259): Verilog HDL error at top.v(2433): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2433
+Warning (10259): Verilog HDL error at top.v(2444): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2444
+Warning (10259): Verilog HDL error at top.v(2446): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2446
+Warning (10259): Verilog HDL error at top.v(2447): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2447
+Warning (10259): Verilog HDL error at top.v(2449): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2449
+Warning (10229): Verilog HDL Expression warning at top.v(2485): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2485
+Warning (10259): Verilog HDL error at top.v(2489): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2489
+Warning (10259): Verilog HDL error at top.v(2490): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2490
+Warning (10259): Verilog HDL error at top.v(2502): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2502
+Warning (10259): Verilog HDL error at top.v(2505): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2505
+Warning (10229): Verilog HDL Expression warning at top.v(2536): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2536
+Warning (10259): Verilog HDL error at top.v(2540): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2540
+Warning (10259): Verilog HDL error at top.v(2541): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2541
+Warning (10259): Verilog HDL error at top.v(2555): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2555
+Warning (10229): Verilog HDL Expression warning at top.v(2587): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2587
+Warning (10259): Verilog HDL error at top.v(2591): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2591
+Warning (10259): Verilog HDL error at top.v(2592): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2592
+Warning (10229): Verilog HDL Expression warning at top.v(2632): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2632
+Warning (10259): Verilog HDL error at top.v(2636): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2636
+Warning (10259): Verilog HDL error at top.v(2637): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2637
+Warning (10259): Verilog HDL error at top.v(2650): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2650
+Warning (10229): Verilog HDL Expression warning at top.v(2683): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2683
+Warning (10259): Verilog HDL error at top.v(2687): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2687
+Warning (10259): Verilog HDL error at top.v(2688): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2688
+Warning (10259): Verilog HDL error at top.v(2700): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2700
+Warning (10259): Verilog HDL error at top.v(2703): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2703
+Warning (10229): Verilog HDL Expression warning at top.v(2734): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2734
+Warning (10259): Verilog HDL error at top.v(2738): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2738
+Warning (10259): Verilog HDL error at top.v(2739): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2739
+Warning (10229): Verilog HDL Expression warning at top.v(2785): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2785
+Warning (10259): Verilog HDL error at top.v(2789): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2789
+Warning (10259): Verilog HDL error at top.v(2790): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2790
+Warning (10229): Verilog HDL Expression warning at top.v(2830): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2830
+Warning (10259): Verilog HDL error at top.v(2834): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2834
+Warning (10259): Verilog HDL error at top.v(2835): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2835
+Warning (10259): Verilog HDL error at top.v(2847): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2847
+Warning (10229): Verilog HDL Expression warning at top.v(2881): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2881
+Warning (10259): Verilog HDL error at top.v(2885): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2885
+Warning (10259): Verilog HDL error at top.v(2886): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2886
+Warning (10259): Verilog HDL error at top.v(2897): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2897
+Warning (10259): Verilog HDL error at top.v(2900): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2900
+Warning (10259): Verilog HDL error at top.v(2901): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2901
+Warning (10229): Verilog HDL Expression warning at top.v(2932): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2932
+Warning (10259): Verilog HDL error at top.v(2936): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2936
+Warning (10259): Verilog HDL error at top.v(2937): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2937
+Warning (10259): Verilog HDL error at top.v(2949): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2949
+Warning (10259): Verilog HDL error at top.v(2951): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2951
+Warning (10229): Verilog HDL Expression warning at top.v(2983): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 2983
+Warning (10259): Verilog HDL error at top.v(2987): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2987
+Warning (10259): Verilog HDL error at top.v(2988): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2988
+Warning (10259): Verilog HDL error at top.v(2999): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 2999
+Warning (10259): Verilog HDL error at top.v(3000): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3000
+Warning (10259): Verilog HDL error at top.v(3001): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3001
+Warning (10259): Verilog HDL error at top.v(3003): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3003
+Warning (10229): Verilog HDL Expression warning at top.v(3034): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3034
+Warning (10259): Verilog HDL error at top.v(3038): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3038
+Warning (10259): Verilog HDL error at top.v(3039): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3039
+Warning (10259): Verilog HDL error at top.v(3050): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3050
+Warning (10259): Verilog HDL error at top.v(3051): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3051
+Warning (10259): Verilog HDL error at top.v(3052): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3052
+Warning (10229): Verilog HDL Expression warning at top.v(3079): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3079
+Warning (10259): Verilog HDL error at top.v(3083): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3083
+Warning (10259): Verilog HDL error at top.v(3084): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3084
+Warning (10259): Verilog HDL error at top.v(3098): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3098
+Warning (10259): Verilog HDL error at top.v(3099): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3099
+Warning (10229): Verilog HDL Expression warning at top.v(3130): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3130
+Warning (10259): Verilog HDL error at top.v(3134): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3134
+Warning (10259): Verilog HDL error at top.v(3135): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3135
+Warning (10259): Verilog HDL error at top.v(3146): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3146
+Warning (10259): Verilog HDL error at top.v(3149): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3149
+Warning (10229): Verilog HDL Expression warning at top.v(3175): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3175
+Warning (10259): Verilog HDL error at top.v(3179): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3179
+Warning (10259): Verilog HDL error at top.v(3180): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3180
+Warning (10259): Verilog HDL error at top.v(3191): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3191
+Warning (10259): Verilog HDL error at top.v(3193): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3193
+Warning (10259): Verilog HDL error at top.v(3194): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3194
+Warning (10259): Verilog HDL error at top.v(3195): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3195
+Warning (10229): Verilog HDL Expression warning at top.v(3232): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3232
+Warning (10259): Verilog HDL error at top.v(3236): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3236
+Warning (10259): Verilog HDL error at top.v(3237): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3237
+Warning (10259): Verilog HDL error at top.v(3248): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3248
+Warning (10259): Verilog HDL error at top.v(3250): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3250
+Warning (10259): Verilog HDL error at top.v(3251): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3251
+Warning (10229): Verilog HDL Expression warning at top.v(3283): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3283
+Warning (10259): Verilog HDL error at top.v(3287): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3287
+Warning (10259): Verilog HDL error at top.v(3288): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3288
+Warning (10259): Verilog HDL error at top.v(3301): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3301
+Warning (10259): Verilog HDL error at top.v(3302): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3302
+Warning (10229): Verilog HDL Expression warning at top.v(3328): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3328
+Warning (10259): Verilog HDL error at top.v(3332): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3332
+Warning (10259): Verilog HDL error at top.v(3333): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3333
+Warning (10229): Verilog HDL Expression warning at top.v(3373): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3373
+Warning (10259): Verilog HDL error at top.v(3377): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3377
+Warning (10259): Verilog HDL error at top.v(3378): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3378
+Warning (10259): Verilog HDL error at top.v(3389): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3389
+Warning (10259): Verilog HDL error at top.v(3390): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3390
+Warning (10229): Verilog HDL Expression warning at top.v(3424): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3424
+Warning (10259): Verilog HDL error at top.v(3428): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3428
+Warning (10259): Verilog HDL error at top.v(3429): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3429
+Warning (10259): Verilog HDL error at top.v(3442): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3442
+Warning (10259): Verilog HDL error at top.v(3443): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3443
+Warning (10259): Verilog HDL error at top.v(3445): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3445
+Warning (10229): Verilog HDL Expression warning at top.v(3481): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3481
+Warning (10259): Verilog HDL error at top.v(3485): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3485
+Warning (10259): Verilog HDL error at top.v(3486): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3486
+Warning (10259): Verilog HDL error at top.v(3498): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3498
+Warning (10259): Verilog HDL error at top.v(3499): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3499
+Warning (10229): Verilog HDL Expression warning at top.v(3532): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3532
+Warning (10259): Verilog HDL error at top.v(3536): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3536
+Warning (10259): Verilog HDL error at top.v(3537): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3537
+Warning (10259): Verilog HDL error at top.v(3550): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3550
+Warning (10259): Verilog HDL error at top.v(3551): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3551
+Warning (10259): Verilog HDL error at top.v(3552): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3552
+Warning (10259): Verilog HDL error at top.v(3553): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3553
+Warning (10229): Verilog HDL Expression warning at top.v(3589): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3589
+Warning (10259): Verilog HDL error at top.v(3593): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3593
+Warning (10259): Verilog HDL error at top.v(3594): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3594
+Warning (10259): Verilog HDL error at top.v(3605): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3605
+Warning (10259): Verilog HDL error at top.v(3606): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3606
+Warning (10259): Verilog HDL error at top.v(3607): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3607
+Warning (10259): Verilog HDL error at top.v(3608): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3608
+Warning (10229): Verilog HDL Expression warning at top.v(3640): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3640
+Warning (10259): Verilog HDL error at top.v(3644): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3644
+Warning (10259): Verilog HDL error at top.v(3645): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3645
+Warning (10259): Verilog HDL error at top.v(3656): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3656
+Warning (10229): Verilog HDL Expression warning at top.v(3679): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3679
+Warning (10259): Verilog HDL error at top.v(3683): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3683
+Warning (10259): Verilog HDL error at top.v(3684): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3684
+Warning (10259): Verilog HDL error at top.v(3696): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3696
+Warning (10259): Verilog HDL error at top.v(3698): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3698
+Warning (10229): Verilog HDL Expression warning at top.v(3736): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3736
+Warning (10259): Verilog HDL error at top.v(3740): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3740
+Warning (10259): Verilog HDL error at top.v(3741): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3741
+Warning (10259): Verilog HDL error at top.v(3755): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3755
+Warning (10229): Verilog HDL Expression warning at top.v(3781): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3781
+Warning (10259): Verilog HDL error at top.v(3785): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3785
+Warning (10259): Verilog HDL error at top.v(3786): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3786
+Warning (10259): Verilog HDL error at top.v(3797): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3797
+Warning (10259): Verilog HDL error at top.v(3798): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3798
+Warning (10259): Verilog HDL error at top.v(3799): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3799
+Warning (10259): Verilog HDL error at top.v(3800): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3800
+Warning (10259): Verilog HDL error at top.v(3801): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3801
+Warning (10229): Verilog HDL Expression warning at top.v(3832): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3832
+Warning (10259): Verilog HDL error at top.v(3836): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3836
+Warning (10259): Verilog HDL error at top.v(3837): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3837
+Warning (10259): Verilog HDL error at top.v(3848): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3848
+Warning (10259): Verilog HDL error at top.v(3849): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3849
+Warning (10259): Verilog HDL error at top.v(3851): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3851
+Warning (10229): Verilog HDL Expression warning at top.v(3883): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3883
+Warning (10259): Verilog HDL error at top.v(3887): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3887
+Warning (10259): Verilog HDL error at top.v(3888): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3888
+Warning (10259): Verilog HDL error at top.v(3900): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3900
+Warning (10229): Verilog HDL Expression warning at top.v(3934): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3934
+Warning (10259): Verilog HDL error at top.v(3938): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3938
+Warning (10259): Verilog HDL error at top.v(3939): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3939
+Warning (10259): Verilog HDL error at top.v(3951): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3951
+Warning (10259): Verilog HDL error at top.v(3954): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3954
+Warning (10229): Verilog HDL Expression warning at top.v(3985): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 3985
+Warning (10259): Verilog HDL error at top.v(3989): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3989
+Warning (10259): Verilog HDL error at top.v(3990): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 3990
+Warning (10229): Verilog HDL Expression warning at top.v(4030): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4030
+Warning (10259): Verilog HDL error at top.v(4034): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4034
+Warning (10259): Verilog HDL error at top.v(4035): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4035
+Warning (10259): Verilog HDL error at top.v(4048): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4048
+Warning (10259): Verilog HDL error at top.v(4049): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4049
+Warning (10259): Verilog HDL error at top.v(4050): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4050
+Warning (10229): Verilog HDL Expression warning at top.v(4081): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4081
+Warning (10259): Verilog HDL error at top.v(4085): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4085
+Warning (10259): Verilog HDL error at top.v(4086): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4086
+Warning (10259): Verilog HDL error at top.v(4099): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4099
+Warning (10259): Verilog HDL error at top.v(4100): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4100
+Warning (10259): Verilog HDL error at top.v(4101): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4101
+Warning (10229): Verilog HDL Expression warning at top.v(4132): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4132
+Warning (10259): Verilog HDL error at top.v(4136): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4136
+Warning (10259): Verilog HDL error at top.v(4137): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4137
+Warning (10259): Verilog HDL error at top.v(4148): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4148
+Warning (10259): Verilog HDL error at top.v(4152): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4152
+Warning (10229): Verilog HDL Expression warning at top.v(4183): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4183
+Warning (10259): Verilog HDL error at top.v(4187): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4187
+Warning (10259): Verilog HDL error at top.v(4188): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4188
+Warning (10259): Verilog HDL error at top.v(4200): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4200
+Warning (10229): Verilog HDL Expression warning at top.v(4228): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4228
+Warning (10259): Verilog HDL error at top.v(4232): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4232
+Warning (10259): Verilog HDL error at top.v(4233): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4233
+Warning (10259): Verilog HDL error at top.v(4245): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4245
+Warning (10229): Verilog HDL Expression warning at top.v(4279): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4279
+Warning (10259): Verilog HDL error at top.v(4283): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4283
+Warning (10259): Verilog HDL error at top.v(4284): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4284
+Warning (10259): Verilog HDL error at top.v(4296): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4296
+Warning (10229): Verilog HDL Expression warning at top.v(4324): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4324
+Warning (10259): Verilog HDL error at top.v(4328): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4328
+Warning (10259): Verilog HDL error at top.v(4329): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4329
+Warning (10259): Verilog HDL error at top.v(4341): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4341
+Warning (10259): Verilog HDL error at top.v(4342): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4342
+Warning (10259): Verilog HDL error at top.v(4343): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4343
+Warning (10229): Verilog HDL Expression warning at top.v(4369): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4369
+Warning (10259): Verilog HDL error at top.v(4373): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4373
+Warning (10259): Verilog HDL error at top.v(4374): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4374
+Warning (10259): Verilog HDL error at top.v(4386): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4386
+Warning (10229): Verilog HDL Expression warning at top.v(4420): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4420
+Warning (10259): Verilog HDL error at top.v(4424): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4424
+Warning (10259): Verilog HDL error at top.v(4425): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4425
+Warning (10259): Verilog HDL error at top.v(4436): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4436
+Warning (10259): Verilog HDL error at top.v(4437): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4437
+Warning (10259): Verilog HDL error at top.v(4438): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4438
+Warning (10259): Verilog HDL error at top.v(4439): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4439
+Warning (10229): Verilog HDL Expression warning at top.v(4471): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4471
+Warning (10259): Verilog HDL error at top.v(4475): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4475
+Warning (10259): Verilog HDL error at top.v(4476): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4476
+Warning (10259): Verilog HDL error at top.v(4487): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4487
+Warning (10259): Verilog HDL error at top.v(4488): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4488
+Warning (10229): Verilog HDL Expression warning at top.v(4528): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4528
+Warning (10259): Verilog HDL error at top.v(4532): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4532
+Warning (10259): Verilog HDL error at top.v(4533): constant value overflow File: /home/cactus/proj/migen-playground/build/top.v Line: 4533
+Warning (10229): Verilog HDL Expression warning at top.v(4585): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4585
+Warning (10229): Verilog HDL Expression warning at top.v(4586): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4586
+Warning (10229): Verilog HDL Expression warning at top.v(4587): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4587
+Warning (10229): Verilog HDL Expression warning at top.v(4588): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4588
+Warning (10229): Verilog HDL Expression warning at top.v(4589): truncated literal to match 16 bits File: /home/cactus/proj/migen-playground/build/top.v Line: 4589
+Info (12021): Found 1 design units, including 1 entities, in source file top.v
+    Info (12023): Found entity 1: top File: /home/cactus/proj/migen-playground/build/top.v Line: 2
+Info (12127): Elaborating entity "top" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at top.v(1858): truncated value with size 16 to match size of target (10) File: /home/cactus/proj/migen-playground/build/top.v Line: 1858
+Warning (10230): Verilog HDL assignment warning at top.v(2059): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2059
+Warning (10230): Verilog HDL assignment warning at top.v(2083): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2083
+Warning (10230): Verilog HDL assignment warning at top.v(2109): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2109
+Warning (10230): Verilog HDL assignment warning at top.v(2128): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2128
+Warning (10230): Verilog HDL assignment warning at top.v(2154): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2154
+Warning (10230): Verilog HDL assignment warning at top.v(2173): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2173
+Warning (10230): Verilog HDL assignment warning at top.v(2201): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2201
+Warning (10230): Verilog HDL assignment warning at top.v(2230): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2230
+Warning (10230): Verilog HDL assignment warning at top.v(2257): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2257
+Warning (10230): Verilog HDL assignment warning at top.v(2281): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2281
+Warning (10230): Verilog HDL assignment warning at top.v(2306): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2306
+Warning (10230): Verilog HDL assignment warning at top.v(2320): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2320
+Warning (10230): Verilog HDL assignment warning at top.v(2345): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2345
+Warning (10230): Verilog HDL assignment warning at top.v(2347): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2347
+Warning (10230): Verilog HDL assignment warning at top.v(2371): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2371
+Warning (10230): Verilog HDL assignment warning at top.v(2398): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2398
+Warning (10230): Verilog HDL assignment warning at top.v(2422): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2422
+Warning (10230): Verilog HDL assignment warning at top.v(2450): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2450
+Warning (10230): Verilog HDL assignment warning at top.v(2479): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2479
+Warning (10230): Verilog HDL assignment warning at top.v(2506): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2506
+Warning (10230): Verilog HDL assignment warning at top.v(2530): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2530
+Warning (10230): Verilog HDL assignment warning at top.v(2557): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2557
+Warning (10230): Verilog HDL assignment warning at top.v(2581): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2581
+Warning (10230): Verilog HDL assignment warning at top.v(2607): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2607
+Warning (10230): Verilog HDL assignment warning at top.v(2626): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2626
+Warning (10230): Verilog HDL assignment warning at top.v(2653): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2653
+Warning (10230): Verilog HDL assignment warning at top.v(2677): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2677
+Warning (10230): Verilog HDL assignment warning at top.v(2704): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2704
+Warning (10230): Verilog HDL assignment warning at top.v(2728): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2728
+Warning (10230): Verilog HDL assignment warning at top.v(2755): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2755
+Warning (10230): Verilog HDL assignment warning at top.v(2779): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2779
+Warning (10230): Verilog HDL assignment warning at top.v(2805): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2805
+Warning (10230): Verilog HDL assignment warning at top.v(2824): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2824
+Warning (10230): Verilog HDL assignment warning at top.v(2851): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2851
+Warning (10230): Verilog HDL assignment warning at top.v(2875): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2875
+Warning (10230): Verilog HDL assignment warning at top.v(2902): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2902
+Warning (10230): Verilog HDL assignment warning at top.v(2926): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2926
+Warning (10230): Verilog HDL assignment warning at top.v(2953): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2953
+Warning (10230): Verilog HDL assignment warning at top.v(2977): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 2977
+Warning (10230): Verilog HDL assignment warning at top.v(3004): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3004
+Warning (10230): Verilog HDL assignment warning at top.v(3028): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3028
+Warning (10230): Verilog HDL assignment warning at top.v(3054): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3054
+Warning (10230): Verilog HDL assignment warning at top.v(3073): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3073
+Warning (10230): Verilog HDL assignment warning at top.v(3100): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3100
+Warning (10230): Verilog HDL assignment warning at top.v(3124): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3124
+Warning (10230): Verilog HDL assignment warning at top.v(3150): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3150
+Warning (10230): Verilog HDL assignment warning at top.v(3169): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3169
+Warning (10230): Verilog HDL assignment warning at top.v(3197): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3197
+Warning (10230): Verilog HDL assignment warning at top.v(3226): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3226
+Warning (10230): Verilog HDL assignment warning at top.v(3248): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3248
+Warning (10230): Verilog HDL assignment warning at top.v(3253): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3253
+Warning (10230): Verilog HDL assignment warning at top.v(3277): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3277
+Warning (10230): Verilog HDL assignment warning at top.v(3301): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3301
+Warning (10230): Verilog HDL assignment warning at top.v(3303): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3303
+Warning (10230): Verilog HDL assignment warning at top.v(3322): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3322
+Warning (10230): Verilog HDL assignment warning at top.v(3348): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3348
+Warning (10230): Verilog HDL assignment warning at top.v(3367): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3367
+Warning (10230): Verilog HDL assignment warning at top.v(3394): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3394
+Warning (10230): Verilog HDL assignment warning at top.v(3418): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3418
+Warning (10230): Verilog HDL assignment warning at top.v(3446): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3446
+Warning (10230): Verilog HDL assignment warning at top.v(3475): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3475
+Warning (10230): Verilog HDL assignment warning at top.v(3502): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3502
+Warning (10230): Verilog HDL assignment warning at top.v(3526): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3526
+Warning (10230): Verilog HDL assignment warning at top.v(3554): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3554
+Warning (10230): Verilog HDL assignment warning at top.v(3583): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3583
+Warning (10230): Verilog HDL assignment warning at top.v(3608): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3608
+Warning (10230): Verilog HDL assignment warning at top.v(3610): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3610
+Warning (10230): Verilog HDL assignment warning at top.v(3634): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3634
+Warning (10230): Verilog HDL assignment warning at top.v(3659): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3659
+Warning (10230): Verilog HDL assignment warning at top.v(3673): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3673
+Warning (10230): Verilog HDL assignment warning at top.v(3701): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3701
+Warning (10230): Verilog HDL assignment warning at top.v(3730): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3730
+Warning (10230): Verilog HDL assignment warning at top.v(3756): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3756
+Warning (10230): Verilog HDL assignment warning at top.v(3775): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3775
+Warning (10230): Verilog HDL assignment warning at top.v(3798): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3798
+Warning (10230): Verilog HDL assignment warning at top.v(3802): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3802
+Warning (10230): Verilog HDL assignment warning at top.v(3826): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3826
+Warning (10230): Verilog HDL assignment warning at top.v(3853): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3853
+Warning (10230): Verilog HDL assignment warning at top.v(3877): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3877
+Warning (10230): Verilog HDL assignment warning at top.v(3904): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3904
+Warning (10230): Verilog HDL assignment warning at top.v(3928): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3928
+Warning (10230): Verilog HDL assignment warning at top.v(3955): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3955
+Warning (10230): Verilog HDL assignment warning at top.v(3979): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 3979
+Warning (10230): Verilog HDL assignment warning at top.v(4005): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4005
+Warning (10230): Verilog HDL assignment warning at top.v(4024): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4024
+Warning (10230): Verilog HDL assignment warning at top.v(4051): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4051
+Warning (10230): Verilog HDL assignment warning at top.v(4075): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4075
+Warning (10230): Verilog HDL assignment warning at top.v(4102): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4102
+Warning (10230): Verilog HDL assignment warning at top.v(4126): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4126
+Warning (10230): Verilog HDL assignment warning at top.v(4153): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4153
+Warning (10230): Verilog HDL assignment warning at top.v(4177): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4177
+Warning (10230): Verilog HDL assignment warning at top.v(4203): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4203
+Warning (10230): Verilog HDL assignment warning at top.v(4222): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4222
+Warning (10230): Verilog HDL assignment warning at top.v(4249): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4249
+Warning (10230): Verilog HDL assignment warning at top.v(4273): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4273
+Warning (10230): Verilog HDL assignment warning at top.v(4299): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4299
+Warning (10230): Verilog HDL assignment warning at top.v(4318): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4318
+Warning (10230): Verilog HDL assignment warning at top.v(4344): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4344
+Warning (10230): Verilog HDL assignment warning at top.v(4363): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4363
+Warning (10230): Verilog HDL assignment warning at top.v(4390): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4390
+Warning (10230): Verilog HDL assignment warning at top.v(4414): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4414
+Warning (10230): Verilog HDL assignment warning at top.v(4439): truncated value with size 17 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4439
+Warning (10230): Verilog HDL assignment warning at top.v(4441): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4441
+Warning (10230): Verilog HDL assignment warning at top.v(4465): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4465
+Warning (10230): Verilog HDL assignment warning at top.v(4493): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4493
+Warning (10230): Verilog HDL assignment warning at top.v(4522): truncated value with size 20 to match size of target (16) File: /home/cactus/proj/migen-playground/build/top.v Line: 4522
+Warning (10230): Verilog HDL assignment warning at top.v(4603): truncated value with size 5 to match size of target (4) File: /home/cactus/proj/migen-playground/build/top.v Line: 4603
+Info (278001): Inferred 108 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult219~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4338
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult223~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4383
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult228~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4434
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult233~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4485
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult239~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4542
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult206~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4197
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult218~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4314
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult196~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4095
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult220~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4355
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult232~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4461
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult201~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4146
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult237~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4516
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult238~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4518
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult182~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3948
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult203~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4169
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult216~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4310
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult187~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3999
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult192~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4065
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult227~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4410
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult224~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4404
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult210~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4242
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult226~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4408
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult215~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4293
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult236~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4514
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult198~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4118
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult172~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3846
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult204~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4171
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult191~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4044
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult205~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4173
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult149~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3603
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult186~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3975
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult207~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4214
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult209~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4218
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult213~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4267
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult197~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4116
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult167~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3795
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult178~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3918
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult180~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3922
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult157~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3693
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult181~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3924
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult169~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3818
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult163~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3750
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult189~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4018
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult190~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4020
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult177~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3897
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult123~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3342
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult144~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3571
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult138~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3495
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult145~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3573
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult154~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3654
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult183~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3969
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult214~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4269
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult127~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3387
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult164~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3767
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult156~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3669
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult132~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3438
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult158~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3718
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult162~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3726
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult188~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 4016
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult175~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3871
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult104~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3144
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult120~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3314
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult114~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3246
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult122~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3318
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult99~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3093
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult121~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3316
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult134~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3465
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult153~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3630
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult124~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3359
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult119~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3297
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult125~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3361
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult126~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3363
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult165~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3769
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult166~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3771
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult130~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3412
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult143~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3546
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult160~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3722
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult75~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2844
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult100~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3114
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult90~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2997
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult102~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3118
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult110~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3216
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult133~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3463
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult137~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3471
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult115~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3267
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult95~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3048
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult116~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3269
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult131~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3414
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult139~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3516
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult108~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3189
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult142~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3522
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult71~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2799
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult74~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2820
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult86~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2967
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult88~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2971
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult85~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2946
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult101~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3116
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult94~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3024
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult107~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 3165
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult68~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2771
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult72~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2816
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult73~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2818
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult82~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2918
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult80~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2895
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult69~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2773
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult70~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2775
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult83~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2920
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult78~macmult" File: /home/cactus/proj/migen-playground/build/top.v Line: 2869
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0"
+Info (12133): Instantiated megafunction "lpm_mult:Mult219_rtl_0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "13"
+    Info (12134): Parameter "LPM_WIDTHB" = "16"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|multcore:mult_core", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 308
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/multcore.tdf Line: 229
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_3dh.tdf
+    Info (12023): Found entity 1: add_sub_3dh File: /home/cactus/proj/migen-playground/build/db/add_sub_3dh.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_92h.tdf
+    Info (12023): Found entity 1: add_sub_92h File: /home/cactus/proj/migen-playground/build/db/add_sub_92h.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 138
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_uch.tdf
+    Info (12023): Found entity 1: add_sub_uch File: /home/cactus/proj/migen-playground/build/db/add_sub_uch.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult219_rtl_0|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mult:Mult219_rtl_0" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6"
+Info (12133): Instantiated megafunction "lpm_mult:Mult218_rtl_6" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|multcore:mult_core", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 308
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/multcore.tdf Line: 229
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_4dh.tdf
+    Info (12023): Found entity 1: add_sub_4dh File: /home/cactus/proj/migen-playground/build/db/add_sub_4dh.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_a2h.tdf
+    Info (12023): Found entity 1: add_sub_a2h File: /home/cactus/proj/migen-playground/build/db/add_sub_a2h.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 138
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_vch.tdf
+    Info (12023): Found entity 1: add_sub_vch File: /home/cactus/proj/migen-playground/build/db/add_sub_vch.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult218_rtl_6|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mult:Mult218_rtl_6" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8"
+Info (12133): Instantiated megafunction "lpm_mult:Mult220_rtl_8" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|multcore:mult_core", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 308
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/multcore.tdf Line: 229
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_tch.tdf
+    Info (12023): Found entity 1: add_sub_tch File: /home/cactus/proj/migen-playground/build/db/add_sub_tch.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_32h.tdf
+    Info (12023): Found entity 1: add_sub_32h File: /home/cactus/proj/migen-playground/build/db/add_sub_32h.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 138
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_1dh.tdf
+    Info (12023): Found entity 1: add_sub_1dh File: /home/cactus/proj/migen-playground/build/db/add_sub_1dh.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult220_rtl_8|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mult:Mult220_rtl_8" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult232_rtl_9"
+Info (12133): Instantiated megafunction "lpm_mult:Mult232_rtl_9" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult237_rtl_11"
+Info (12133): Instantiated megafunction "lpm_mult:Mult237_rtl_11" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12"
+Info (12133): Instantiated megafunction "lpm_mult:Mult238_rtl_12" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12|multcore:mult_core", which is child of megafunction instantiation "lpm_mult:Mult238_rtl_12" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 308
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "lpm_mult:Mult238_rtl_12" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/multcore.tdf Line: 229
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "lpm_mult:Mult238_rtl_12" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_5dh.tdf
+    Info (12023): Found entity 1: add_sub_5dh File: /home/cactus/proj/migen-playground/build/db/add_sub_5dh.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult238_rtl_12" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_b2h.tdf
+    Info (12023): Found entity 1: add_sub_b2h File: /home/cactus/proj/migen-playground/build/db/add_sub_b2h.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "lpm_mult:Mult238_rtl_12" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 138
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult238_rtl_12|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult238_rtl_12" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_0dh.tdf
+    Info (12023): Found entity 1: add_sub_0dh File: /home/cactus/proj/migen-playground/build/db/add_sub_0dh.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult203_rtl_14"
+Info (12133): Instantiated megafunction "lpm_mult:Mult203_rtl_14" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult216_rtl_15"
+Info (12133): Instantiated megafunction "lpm_mult:Mult216_rtl_15" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult192_rtl_17"
+Info (12133): Instantiated megafunction "lpm_mult:Mult192_rtl_17" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult227_rtl_18"
+Info (12133): Instantiated megafunction "lpm_mult:Mult227_rtl_18" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult224_rtl_19"
+Info (12133): Instantiated megafunction "lpm_mult:Mult224_rtl_19" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult226_rtl_21"
+Info (12133): Instantiated megafunction "lpm_mult:Mult226_rtl_21" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23"
+Info (12133): Instantiated megafunction "lpm_mult:Mult236_rtl_23" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "13"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "27"
+    Info (12134): Parameter "LPM_WIDTHR" = "27"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23|multcore:mult_core", which is child of megafunction instantiation "lpm_mult:Mult236_rtl_23" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 308
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "lpm_mult:Mult236_rtl_23" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/multcore.tdf Line: 229
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "lpm_mult:Mult236_rtl_23" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult236_rtl_23" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult236_rtl_23" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult236_rtl_23|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mult:Mult236_rtl_23" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult198_rtl_24"
+Info (12133): Instantiated megafunction "lpm_mult:Mult198_rtl_24" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult204_rtl_26"
+Info (12133): Instantiated megafunction "lpm_mult:Mult204_rtl_26" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult205_rtl_28"
+Info (12133): Instantiated megafunction "lpm_mult:Mult205_rtl_28" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult186_rtl_30"
+Info (12133): Instantiated megafunction "lpm_mult:Mult186_rtl_30" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult207_rtl_31"
+Info (12133): Instantiated megafunction "lpm_mult:Mult207_rtl_31" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult209_rtl_32"
+Info (12133): Instantiated megafunction "lpm_mult:Mult209_rtl_32" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult213_rtl_33"
+Info (12133): Instantiated megafunction "lpm_mult:Mult213_rtl_33" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult197_rtl_34"
+Info (12133): Instantiated megafunction "lpm_mult:Mult197_rtl_34" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult178_rtl_36"
+Info (12133): Instantiated megafunction "lpm_mult:Mult178_rtl_36" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult180_rtl_37"
+Info (12133): Instantiated megafunction "lpm_mult:Mult180_rtl_37" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult181_rtl_39"
+Info (12133): Instantiated megafunction "lpm_mult:Mult181_rtl_39" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult169_rtl_40"
+Info (12133): Instantiated megafunction "lpm_mult:Mult169_rtl_40" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult189_rtl_42"
+Info (12133): Instantiated megafunction "lpm_mult:Mult189_rtl_42" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43"
+Info (12133): Instantiated megafunction "lpm_mult:Mult190_rtl_43" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|multcore:mult_core", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 308
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/multcore.tdf Line: 229
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_2dh.tdf
+    Info (12023): Found entity 1: add_sub_2dh File: /home/cactus/proj/migen-playground/build/db/add_sub_2dh.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_82h.tdf
+    Info (12023): Found entity 1: add_sub_82h File: /home/cactus/proj/migen-playground/build/db/add_sub_82h.tdf Line: 23
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 138
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/mpar_add.tdf Line: 115
+Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult190_rtl_43|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mult:Mult190_rtl_43" File: /home/cactus/opt/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult144_rtl_46"
+Info (12133): Instantiated megafunction "lpm_mult:Mult144_rtl_46" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult145_rtl_48"
+Info (12133): Instantiated megafunction "lpm_mult:Mult145_rtl_48" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult183_rtl_50"
+Info (12133): Instantiated megafunction "lpm_mult:Mult183_rtl_50" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult214_rtl_51"
+Info (12133): Instantiated megafunction "lpm_mult:Mult214_rtl_51" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult164_rtl_53"
+Info (12133): Instantiated megafunction "lpm_mult:Mult164_rtl_53" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult156_rtl_54"
+Info (12133): Instantiated megafunction "lpm_mult:Mult156_rtl_54" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult158_rtl_56"
+Info (12133): Instantiated megafunction "lpm_mult:Mult158_rtl_56" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult162_rtl_57"
+Info (12133): Instantiated megafunction "lpm_mult:Mult162_rtl_57" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult188_rtl_58"
+Info (12133): Instantiated megafunction "lpm_mult:Mult188_rtl_58" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult175_rtl_59"
+Info (12133): Instantiated megafunction "lpm_mult:Mult175_rtl_59" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult120_rtl_61"
+Info (12133): Instantiated megafunction "lpm_mult:Mult120_rtl_61" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult122_rtl_63"
+Info (12133): Instantiated megafunction "lpm_mult:Mult122_rtl_63" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult121_rtl_65"
+Info (12133): Instantiated megafunction "lpm_mult:Mult121_rtl_65" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult134_rtl_66"
+Info (12133): Instantiated megafunction "lpm_mult:Mult134_rtl_66" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult153_rtl_67"
+Info (12133): Instantiated megafunction "lpm_mult:Mult153_rtl_67" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult124_rtl_68"
+Info (12133): Instantiated megafunction "lpm_mult:Mult124_rtl_68" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult125_rtl_70"
+Info (12133): Instantiated megafunction "lpm_mult:Mult125_rtl_70" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult126_rtl_71"
+Info (12133): Instantiated megafunction "lpm_mult:Mult126_rtl_71" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult165_rtl_72"
+Info (12133): Instantiated megafunction "lpm_mult:Mult165_rtl_72" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult166_rtl_73"
+Info (12133): Instantiated megafunction "lpm_mult:Mult166_rtl_73" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult130_rtl_74"
+Info (12133): Instantiated megafunction "lpm_mult:Mult130_rtl_74" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult160_rtl_76"
+Info (12133): Instantiated megafunction "lpm_mult:Mult160_rtl_76" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult100_rtl_78"
+Info (12133): Instantiated megafunction "lpm_mult:Mult100_rtl_78" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult102_rtl_80"
+Info (12133): Instantiated megafunction "lpm_mult:Mult102_rtl_80" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult110_rtl_81"
+Info (12133): Instantiated megafunction "lpm_mult:Mult110_rtl_81" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "13"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "27"
+    Info (12134): Parameter "LPM_WIDTHR" = "27"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult133_rtl_82"
+Info (12133): Instantiated megafunction "lpm_mult:Mult133_rtl_82" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult137_rtl_83"
+Info (12133): Instantiated megafunction "lpm_mult:Mult137_rtl_83" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult115_rtl_84"
+Info (12133): Instantiated megafunction "lpm_mult:Mult115_rtl_84" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult116_rtl_86"
+Info (12133): Instantiated megafunction "lpm_mult:Mult116_rtl_86" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult131_rtl_87"
+Info (12133): Instantiated megafunction "lpm_mult:Mult131_rtl_87" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult139_rtl_88"
+Info (12133): Instantiated megafunction "lpm_mult:Mult139_rtl_88" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult142_rtl_90"
+Info (12133): Instantiated megafunction "lpm_mult:Mult142_rtl_90" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult74_rtl_92"
+Info (12133): Instantiated megafunction "lpm_mult:Mult74_rtl_92" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "13"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "27"
+    Info (12134): Parameter "LPM_WIDTHR" = "27"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult86_rtl_93"
+Info (12133): Instantiated megafunction "lpm_mult:Mult86_rtl_93" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult88_rtl_94"
+Info (12133): Instantiated megafunction "lpm_mult:Mult88_rtl_94" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult101_rtl_96"
+Info (12133): Instantiated megafunction "lpm_mult:Mult101_rtl_96" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult94_rtl_97"
+Info (12133): Instantiated megafunction "lpm_mult:Mult94_rtl_97" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult107_rtl_98"
+Info (12133): Instantiated megafunction "lpm_mult:Mult107_rtl_98" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult68_rtl_99"
+Info (12133): Instantiated megafunction "lpm_mult:Mult68_rtl_99" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "14"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "28"
+    Info (12134): Parameter "LPM_WIDTHR" = "28"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult72_rtl_100"
+Info (12133): Instantiated megafunction "lpm_mult:Mult72_rtl_100" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult73_rtl_101"
+Info (12133): Instantiated megafunction "lpm_mult:Mult73_rtl_101" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult82_rtl_102"
+Info (12133): Instantiated megafunction "lpm_mult:Mult82_rtl_102" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult69_rtl_104"
+Info (12133): Instantiated megafunction "lpm_mult:Mult69_rtl_104" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult70_rtl_105"
+Info (12133): Instantiated megafunction "lpm_mult:Mult70_rtl_105" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "30"
+    Info (12134): Parameter "LPM_WIDTHR" = "30"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult83_rtl_106"
+Info (12133): Instantiated megafunction "lpm_mult:Mult83_rtl_106" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "13"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "27"
+    Info (12134): Parameter "LPM_WIDTHR" = "27"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult78_rtl_107"
+Info (12133): Instantiated megafunction "lpm_mult:Mult78_rtl_107" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "15"
+    Info (12134): Parameter "LPM_WIDTHB" = "14"
+    Info (12134): Parameter "LPM_WIDTHP" = "29"
+    Info (12134): Parameter "LPM_WIDTHR" = "29"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 56 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "seven_seg[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 3
+    Warning (15610): No output dependent on input pin "seven_seg_1[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_1[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 4
+    Warning (15610): No output dependent on input pin "seven_seg_2[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_2[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 5
+    Warning (15610): No output dependent on input pin "seven_seg_3[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_3[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 6
+    Warning (15610): No output dependent on input pin "seven_seg_4[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_4[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 7
+    Warning (15610): No output dependent on input pin "seven_seg_5[0]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[1]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[2]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[3]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[4]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[5]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "seven_seg_5[6]" File: /home/cactus/proj/migen-playground/build/top.v Line: 8
+    Warning (15610): No output dependent on input pin "key" File: /home/cactus/proj/migen-playground/build/top.v Line: 19
+    Warning (15610): No output dependent on input pin "key_1" File: /home/cactus/proj/migen-playground/build/top.v Line: 20
+    Warning (15610): No output dependent on input pin "key_2" File: /home/cactus/proj/migen-playground/build/top.v Line: 21
+    Warning (15610): No output dependent on input pin "key_3" File: /home/cactus/proj/migen-playground/build/top.v Line: 22
+    Warning (15610): No output dependent on input pin "sw" File: /home/cactus/proj/migen-playground/build/top.v Line: 23
+    Warning (15610): No output dependent on input pin "sw_1" File: /home/cactus/proj/migen-playground/build/top.v Line: 24
+    Warning (15610): No output dependent on input pin "sw_2" File: /home/cactus/proj/migen-playground/build/top.v Line: 25
+    Warning (15610): No output dependent on input pin "sw_3" File: /home/cactus/proj/migen-playground/build/top.v Line: 26
+    Warning (15610): No output dependent on input pin "sw_4" File: /home/cactus/proj/migen-playground/build/top.v Line: 27
+    Warning (15610): No output dependent on input pin "sw_5" File: /home/cactus/proj/migen-playground/build/top.v Line: 28
+    Warning (15610): No output dependent on input pin "sw_6" File: /home/cactus/proj/migen-playground/build/top.v Line: 29
+    Warning (15610): No output dependent on input pin "sw_7" File: /home/cactus/proj/migen-playground/build/top.v Line: 30
+    Warning (15610): No output dependent on input pin "sw_8" File: /home/cactus/proj/migen-playground/build/top.v Line: 31
+    Warning (15610): No output dependent on input pin "sw_9" File: /home/cactus/proj/migen-playground/build/top.v Line: 32
+Info (21057): Implemented 10762 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 57 input pins
+    Info (21059): Implemented 10 output pins
+    Info (21061): Implemented 10563 logic cells
+    Info (21062): Implemented 132 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 481 warnings
+    Info: Peak virtual memory: 1436 megabytes
+    Info: Processing ended: Thu Apr 20 17:18:50 2017
+    Info: Elapsed time: 00:01:34
+    Info: Total CPU time (on all processors): 00:01:56
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Thu Apr 20 17:18:55 2017
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off top -c top
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = top
+Info: Revision = top
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (119006): Selected device 5CEBA4F23C7 for design "top"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (184020): Starting Fitter periphery placement operations
+Info (11191): Automatically promoted 1 clock (1 global)
+    Info (11162): clk50~inputCLKENA0 with 184 fanout uses global clock CLKCTRL_G6
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
+Info (176233): Starting register packing
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'top.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332144): No user constrained base clocks found in the design
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
+Info (176235): Finished register packing
+    Extra Info (176218): Packed 304 registers into blocks of type DSP block
+    Extra Info (176220): Created 224 register duplicates
+Error (184036): Cannot place the following 30 DSP cells -- a legal placement which satisfies all the DSP requirements could not be found
+    Info (184037): Node "Mult30~8"
+    Info (184037): Node "Mult46~8"
+    Info (184037): Node "Mult34~8"
+    Info (184037): Node "Mult33~8"
+    Info (184037): Node "Mult18~8"
+    Info (184037): Node "Mult39~8"
+    Info (184037): Node "Mult38~8"
+    Info (184037): Node "Mult4~8"
+    Info (184037): Node "Mult8~8"
+    Info (184037): Node "Mult29~8"
+    Info (184037): Node "Mult28~8"
+    Info (184037): Node "Mult25~8"
+    Info (184037): Node "Mult45~8"
+    Info (184037): Node "Mult44~8"
+    Info (184037): Node "Mult23~8"
+    Info (184037): Node "Mult12~8"
+    Info (184037): Node "Mult17~8"
+    Info (184037): Node "Mult16~8"
+    Info (184037): Node "Mult3~8"
+    Info (184037): Node "Mult7~8"
+    Info (184037): Node "Mult6~8"
+    Info (184037): Node "Mult22~8"
+    Info (184037): Node "Mult11~8"
+    Info (184037): Node "Mult10~8"
+    Info (184037): Node "Mult15~8"
+    Info (184037): Node "Mult14~8"
+    Info (184037): Node "Mult2~8"
+    Info (184037): Node "Mult1~8"
+    Info (184037): Node "Mult21~8"
+    Info (184037): Node "Mult20~8"
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:11
+Error (11802): Can't fit design in device. Modify your design to reduce resources, or choose a larger device. The Altera Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number.
+Info (144001): Generated suppressed messages file /home/cactus/proj/migen-playground/build/top.fit.smsg
+Error: Quartus Prime Fitter was unsuccessful. 2 errors, 4 warnings
+    Error: Peak virtual memory: 1599 megabytes
+    Error: Processing ended: Thu Apr 20 17:19:32 2017
+    Error: Elapsed time: 00:00:37
+    Error: Total CPU time (on all processors): 00:00:37
+,,,,,,,,,,,,,,,,,,,...........................................................................................................................................................................wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called
+wsum: finalize called

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "toplevel/size_test.py", line 76, in <module>
+    brd.build(_top(brd.plat,nwidth,ndepth,ndens,fpwidths))         
+  File "toplevel/size_test.py", line 27, in __init__
+    self.submodules.net = randnet.rectnet(nwidth, ndepth, ndens, fpwidths)
+  File "/home/cactus/proj/migen-playground/toplevel/modules/randnet.py", line 54, in rectnet
+    graph,outputs = randgraph_layered(width,[width]*depth,density,randfunc=normgauss(2**fp_widths[0]))
+  File "/home/cactus/proj/migen-playground/toplevel/modules/randnet.py", line 46, in randgraph_layered
+    neurons += randlayer(start, nexts, lc, math.ceil(connum_func(nexts - start, lc, con_density)), randfunc)
+  File "/home/cactus/proj/migen-playground/toplevel/modules/randnet.py", line 28, in randlayer
+    edges.update(set(random.sample(possible_edges, num_connections-len(edges))))
+  File "/usr/lib/python3.5/random.py", line 324, in sample
+    raise ValueError("Sample larger than population")
+ValueError: Sample larger than population

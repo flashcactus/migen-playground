@@ -57,7 +57,7 @@ class _top(Module):
 
 if __name__ == '__main__':
     import builder as brd
-    from sys import argv
+    from sys import argv, stdout
 
     nwidth,ndepth = map(int,argv[1:3])
     ndens = float(argv[3])
@@ -73,7 +73,9 @@ if __name__ == '__main__':
         pass
 
     if build:
-        brd.build(_top(brd.plat,nwidth,ndepth,ndens,fpwidths))         
+        top = _top(brd.plat,nwidth,ndepth,ndens,fpwidths)
+        stdout.flush()
+        brd.build(top)
     if flash:
         brd.flash()
 

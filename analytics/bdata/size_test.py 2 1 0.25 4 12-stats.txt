@@ -1,0 +1,8 @@
+Tue Apr 25 18:05:35 MSK 2017
+194 device resources
+57 input pins
+10 output pins
+122 logic cells
+5 DSP elements
+0% average
+1% peak

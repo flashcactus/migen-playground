@@ -1,0 +1,16 @@
+1287 device resources
+57 input pins
+10 output pins
+1124 logic cells
+96 DSP elements
+2% average
+6% peak
+Tue Apr 25 21:19:22 MSK 2017
+Rectnet: instantiated net with 32 neurons and 64 edges
+1279 device resources
+57 input pins
+10 output pins
+1116 logic cells
+96 DSP elements
+3% average
+6% peak
